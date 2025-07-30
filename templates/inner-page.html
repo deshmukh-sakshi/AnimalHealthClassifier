@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter Animal Details</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4; }
+        form { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 400px; }
+        h2 { text-align: center; color: #333; }
+        label, select, input[type="submit"] { display: block; width: 100%; margin-bottom: 15px; }
+        label { margin-bottom: 5px; font-weight: bold; }
+        select, input[type="submit"] { padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+        input[type="submit"] { background-color: #28a745; color: white; border: none; cursor: pointer; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <h2>Enter Your Details for Animal Health Status Check</h2>
+        
+        <label for="AnimalName">Animal Name:</label>
+        <select name="AnimalName" id="AnimalName">
+            <option value="6">Dog</option>
+            <option value="2">Buffaloes</option>
+            <option value="29">Sheep</option>
+            </select>
+
+        <label for="BloodBrainDisease">Blood/Brain Disease:</label>
+        <select name="BloodBrainDisease" id="BloodBrainDisease">
+            <option value="0">anemia</option>
+            <option value="2">jaundice</option>
+            <option value="4">wasting</option>
+            <option value="1">convulsions</option>
+            <option value="3">seizures</option>
+        </select>
+        
+        <label for="AppearenceDisease">Appearance Disease:</label>
+        <select name="AppearenceDisease" id="AppearenceDisease">
+            <option value="4">swelling</option>
+            <option value="0">emaciation</option>
+            <option value="1">hairloss</option>
+            <option value="2">ruffled feathers</option>
+            <option value="3">scabs</option>
+        </select>
+
+        <label for="GeneralDisease">General Disease:</label>
+        <select name="GeneralDisease" id="GeneralDisease">
+            <option value="2">fever</option>
+            <option value="4">loss of appetite</option>
+            <option value="6">pains</option>
+            <option value="12">weakness</option>
+        </select>
+
+        <label for="LungDisease">Lung Disease:</label>
+        <select name="LungDisease" id="LungDisease">
+            <option value="0">difficulty in breathing</option>
+            <option value="2">halitosis</option>
+            <option value="4">pneumonia</option>
+            <option value="1">dyspnea</option>
+            <option value="3">nasal discharge</option>
+        </select>
+        
+        <label for="AbdominalDisease">Abdominal Disease:</label>
+        <select name="AbdominalDisease" id="AbdominalDisease">
+            <option value="5">uteria inertia</option>
+            <option value="3">ulcers</option>
+            <option value="2">fetopelvic disproportion</option>
+            <option value="1">diarrhea</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
