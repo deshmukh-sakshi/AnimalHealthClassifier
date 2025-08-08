@@ -1,12 +1,17 @@
 from flask import Flask, request, render_template
 import pickle
 import numpy as np
+import json
 
 app = Flask(__name__)
 
 # Load the trained model and scaler
 model = pickle.load(open('rfc.pkl', 'rb'))
 scaler = pickle.load(open('scaler.pkl', 'rb'))
+
+# Load form data
+with open('form_data.json', 'r') as f:
+    form_data = json.load(f)
 
 @app.route('/')
 def home():
@@ -15,6 +20,10 @@ def home():
 @app.route('/predict')
 def predict():
     return render_template('inner-page.html')
+
+@app.route('/get-form-data')
+def get_form_data():
+    return form_data
 
 @app.route('/submit', methods=['POST'])
 def submit():
@@ -31,7 +40,7 @@ def submit():
     prediction = model.predict(scaled_features)
     
     # Determine the result message
-    if prediction[0] == 0: # Assuming 0 is 'Critical'
+    if prediction[0] == 1: # 1 is 'Critical' (Yes), 0 is 'Normal' (No)
         result_text = "According to our study, the animal's condition appears to be critical. Immediate consultation is advised."
     else:
         result_text = "The animal appears to be in normal condition."

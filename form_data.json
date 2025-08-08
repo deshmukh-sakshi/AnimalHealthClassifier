@@ -1,0 +1,4642 @@
+{
+  "AnimalName": [
+    {
+      "value": 0,
+      "label": "Birds"
+    },
+    {
+      "value": 1,
+      "label": "Black-tailed deer"
+    },
+    {
+      "value": 2,
+      "label": "Buffaloes"
+    },
+    {
+      "value": 3,
+      "label": "Cattle"
+    },
+    {
+      "value": 4,
+      "label": "Chicken"
+    },
+    {
+      "value": 5,
+      "label": "Deer"
+    },
+    {
+      "value": 6,
+      "label": "Dog"
+    },
+    {
+      "value": 7,
+      "label": "Dogs"
+    },
+    {
+      "value": 8,
+      "label": "Donkey"
+    },
+    {
+      "value": 9,
+      "label": "Duck"
+    },
+    {
+      "value": 10,
+      "label": "Elephant"
+    },
+    {
+      "value": 11,
+      "label": "Elk"
+    },
+    {
+      "value": 12,
+      "label": "Fowl"
+    },
+    {
+      "value": 13,
+      "label": "Fox"
+    },
+    {
+      "value": 14,
+      "label": "Fox "
+    },
+    {
+      "value": 15,
+      "label": "Goat"
+    },
+    {
+      "value": 16,
+      "label": "Goats"
+    },
+    {
+      "value": 17,
+      "label": "Hamster"
+    },
+    {
+      "value": 18,
+      "label": "Horse"
+    },
+    {
+      "value": 19,
+      "label": "Hyaenas"
+    },
+    {
+      "value": 20,
+      "label": "Lion"
+    },
+    {
+      "value": 21,
+      "label": "Monkey"
+    },
+    {
+      "value": 22,
+      "label": "Moos"
+    },
+    {
+      "value": 23,
+      "label": "Mule deer"
+    },
+    {
+      "value": 24,
+      "label": "Other Birds"
+    },
+    {
+      "value": 25,
+      "label": "Pig"
+    },
+    {
+      "value": 26,
+      "label": "Pigs"
+    },
+    {
+      "value": 27,
+      "label": "Rabbit"
+    },
+    {
+      "value": 28,
+      "label": "Reindeer"
+    },
+    {
+      "value": 29,
+      "label": "Sheep"
+    },
+    {
+      "value": 30,
+      "label": "Sika deer"
+    },
+    {
+      "value": 31,
+      "label": "Tiger"
+    },
+    {
+      "value": 32,
+      "label": "Turtle"
+    },
+    {
+      "value": 33,
+      "label": "Wapiti"
+    },
+    {
+      "value": 34,
+      "label": "White-tailed deer"
+    },
+    {
+      "value": 35,
+      "label": "Wolves"
+    },
+    {
+      "value": 36,
+      "label": "cat"
+    },
+    {
+      "value": 37,
+      "label": "cattle"
+    },
+    {
+      "value": 38,
+      "label": "chicken"
+    },
+    {
+      "value": 39,
+      "label": "cow"
+    },
+    {
+      "value": 40,
+      "label": "donkey"
+    },
+    {
+      "value": 41,
+      "label": "duck"
+    },
+    {
+      "value": 42,
+      "label": "horse"
+    },
+    {
+      "value": 43,
+      "label": "mammal"
+    },
+    {
+      "value": 44,
+      "label": "mules"
+    },
+    {
+      "value": 45,
+      "label": "snake"
+    }
+  ],
+  "symptoms1": [
+    {
+      "value": 0,
+      "label": " abortion at the end of gestation"
+    },
+    {
+      "value": 1,
+      "label": "Abdominal pain"
+    },
+    {
+      "value": 2,
+      "label": "Abortion "
+    },
+    {
+      "value": 3,
+      "label": "Abortion on late pregancy"
+    },
+    {
+      "value": 4,
+      "label": "Air sacculitis"
+    },
+    {
+      "value": 5,
+      "label": "Allergic Reaction"
+    },
+    {
+      "value": 6,
+      "label": "Animal gets uneasy"
+    },
+    {
+      "value": 7,
+      "label": "Apathy"
+    },
+    {
+      "value": 8,
+      "label": "Appetite varies"
+    },
+    {
+      "value": 9,
+      "label": "Attacks"
+    },
+    {
+      "value": 10,
+      "label": "Bad breath"
+    },
+    {
+      "value": 11,
+      "label": "Balance problem"
+    },
+    {
+      "value": 12,
+      "label": "Bald patches"
+    },
+    {
+      "value": 13,
+      "label": "Barren ewes"
+    },
+    {
+      "value": 14,
+      "label": "Berberi"
+    },
+    {
+      "value": 15,
+      "label": "Bleeding from other parts of the body"
+    },
+    {
+      "value": 16,
+      "label": "Blood from mouth"
+    },
+    {
+      "value": 17,
+      "label": "Blood in urine"
+    },
+    {
+      "value": 18,
+      "label": "Blood stool"
+    },
+    {
+      "value": 19,
+      "label": "Bloody Diarhhea"
+    },
+    {
+      "value": 20,
+      "label": "Bloody Urine"
+    },
+    {
+      "value": 21,
+      "label": "Bluish white opacity"
+    },
+    {
+      "value": 22,
+      "label": "Bony Lesion"
+    },
+    {
+      "value": 23,
+      "label": "Bubbles in the mouth"
+    },
+    {
+      "value": 24,
+      "label": "Cell Damage"
+    },
+    {
+      "value": 25,
+      "label": "Cessation of eructation"
+    },
+    {
+      "value": 26,
+      "label": "Changes in outer layer skin"
+    },
+    {
+      "value": 27,
+      "label": "Constant pacing"
+    },
+    {
+      "value": 28,
+      "label": "Continuous loss of weight"
+    },
+    {
+      "value": 29,
+      "label": "Convulsion"
+    },
+    {
+      "value": 30,
+      "label": "Coughing\u00a0"
+    },
+    {
+      "value": 31,
+      "label": "Dark or black face"
+    },
+    {
+      "value": 32,
+      "label": "Decreased eyelid"
+    },
+    {
+      "value": 33,
+      "label": "Decreased growth of bone"
+    },
+    {
+      "value": 34,
+      "label": "Decreased milk"
+    },
+    {
+      "value": 35,
+      "label": "Dejection"
+    },
+    {
+      "value": 36,
+      "label": "Diarrhea with muscus"
+    },
+    {
+      "value": 37,
+      "label": "Difficulty in breathing"
+    },
+    {
+      "value": 38,
+      "label": "Difficulty in feeding"
+    },
+    {
+      "value": 39,
+      "label": "Discharge "
+    },
+    {
+      "value": 40,
+      "label": "Discharge From eyes"
+    },
+    {
+      "value": 41,
+      "label": "Discomfort"
+    },
+    {
+      "value": 42,
+      "label": "Dizzines"
+    },
+    {
+      "value": 43,
+      "label": "Drooping ears"
+    },
+    {
+      "value": 44,
+      "label": "Drooping wings"
+    },
+    {
+      "value": 45,
+      "label": "Dullness"
+    },
+    {
+      "value": 46,
+      "label": "Dyspnea"
+    },
+    {
+      "value": 47,
+      "label": "Edema"
+    },
+    {
+      "value": 48,
+      "label": "Egg production stops"
+    },
+    {
+      "value": 49,
+      "label": "Emaciation"
+    },
+    {
+      "value": 50,
+      "label": "Enlarged Thymus"
+    },
+    {
+      "value": 51,
+      "label": "Excess salivation"
+    },
+    {
+      "value": 52,
+      "label": "Excessive blood loss"
+    },
+    {
+      "value": 53,
+      "label": "Excessive eye watering"
+    },
+    {
+      "value": 54,
+      "label": "Excitability"
+    },
+    {
+      "value": 55,
+      "label": "Exessive Urination"
+    },
+    {
+      "value": 56,
+      "label": "Extreme thirst"
+    },
+    {
+      "value": 57,
+      "label": "Eye redness"
+    },
+    {
+      "value": 58,
+      "label": "Facial Swelling"
+    },
+    {
+      "value": 59,
+      "label": "Facial edema"
+    },
+    {
+      "value": 60,
+      "label": "Fatty stool"
+    },
+    {
+      "value": 61,
+      "label": "Feather Loss"
+    },
+    {
+      "value": 62,
+      "label": "Fetopelvic dispropotion"
+    },
+    {
+      "value": 63,
+      "label": "Fever"
+    },
+    {
+      "value": 64,
+      "label": "Floopy muscle"
+    },
+    {
+      "value": 65,
+      "label": "Fluffed Feather"
+    },
+    {
+      "value": 66,
+      "label": "Fluif Faeces on blood and muscle"
+    },
+    {
+      "value": 67,
+      "label": "Formation of vesicles"
+    },
+    {
+      "value": 68,
+      "label": "Forthy eye"
+    },
+    {
+      "value": 69,
+      "label": "Foul Smelling"
+    },
+    {
+      "value": 70,
+      "label": "Gas"
+    },
+    {
+      "value": 71,
+      "label": "Gasc"
+    },
+    {
+      "value": 72,
+      "label": "Gasping"
+    },
+    {
+      "value": 73,
+      "label": "Gastritis"
+    },
+    {
+      "value": 74,
+      "label": "General malaise"
+    },
+    {
+      "value": 75,
+      "label": "Greenish-yellow nasal discharge"
+    },
+    {
+      "value": 76,
+      "label": "Groosly enlarged"
+    },
+    {
+      "value": 77,
+      "label": "Hair loss"
+    },
+    {
+      "value": 78,
+      "label": "Head Shking"
+    },
+    {
+      "value": 79,
+      "label": "Head tilt"
+    },
+    {
+      "value": 80,
+      "label": "Head tossing"
+    },
+    {
+      "value": 81,
+      "label": "Heavy Breathing"
+    },
+    {
+      "value": 82,
+      "label": "Heavy infection"
+    },
+    {
+      "value": 83,
+      "label": "Hemopytsis"
+    },
+    {
+      "value": 84,
+      "label": "Hyperexcitability"
+    },
+    {
+      "value": 85,
+      "label": "Immediate death"
+    },
+    {
+      "value": 86,
+      "label": "Inability to digest"
+    },
+    {
+      "value": 87,
+      "label": "Inability to stand "
+    },
+    {
+      "value": 88,
+      "label": "Inappentence"
+    },
+    {
+      "value": 89,
+      "label": "Indigestion"
+    },
+    {
+      "value": 90,
+      "label": "Inflammation "
+    },
+    {
+      "value": 91,
+      "label": "Isolation from flock"
+    },
+    {
+      "value": 92,
+      "label": "Jaundice"
+    },
+    {
+      "value": 93,
+      "label": "Labored breathing"
+    },
+    {
+      "value": 94,
+      "label": "Lack of walking"
+    },
+    {
+      "value": 95,
+      "label": "Legness"
+    },
+    {
+      "value": 96,
+      "label": "Lepatomegaly"
+    },
+    {
+      "value": 97,
+      "label": "Lesions in the nasal cavity"
+    },
+    {
+      "value": 98,
+      "label": "Lession on cat skin"
+    },
+    {
+      "value": 99,
+      "label": "Lethargy"
+    },
+    {
+      "value": 100,
+      "label": "Limping"
+    },
+    {
+      "value": 101,
+      "label": "Liquid Dropping"
+    },
+    {
+      "value": 102,
+      "label": "Listless"
+    },
+    {
+      "value": 103,
+      "label": "Loss od appetite"
+    },
+    {
+      "value": 104,
+      "label": "Loss of activity"
+    },
+    {
+      "value": 105,
+      "label": "Loss of appetite"
+    },
+    {
+      "value": 106,
+      "label": "Loss of eat"
+    },
+    {
+      "value": 107,
+      "label": "Mortality"
+    },
+    {
+      "value": 108,
+      "label": "Most often none"
+    },
+    {
+      "value": 109,
+      "label": "Nasal Bleeding"
+    },
+    {
+      "value": 110,
+      "label": "Nasal discharge"
+    },
+    {
+      "value": 111,
+      "label": "Nausea"
+    },
+    {
+      "value": 112,
+      "label": "Neck paralysis"
+    },
+    {
+      "value": 113,
+      "label": "Normal appetite"
+    },
+    {
+      "value": 114,
+      "label": "Nosebleed\u00a0"
+    },
+    {
+      "value": 115,
+      "label": "Oedema"
+    },
+    {
+      "value": 116,
+      "label": "Overweight"
+    },
+    {
+      "value": 117,
+      "label": "Pale comb"
+    },
+    {
+      "value": 118,
+      "label": "Partial Paralysis"
+    },
+    {
+      "value": 119,
+      "label": "Passing of undigested food"
+    },
+    {
+      "value": 120,
+      "label": "Pnemonia"
+    },
+    {
+      "value": 121,
+      "label": "Polyuria"
+    },
+    {
+      "value": 122,
+      "label": "Poor coat apperence "
+    },
+    {
+      "value": 123,
+      "label": "Poor condition"
+    },
+    {
+      "value": 124,
+      "label": "Poor growth"
+    },
+    {
+      "value": 125,
+      "label": "Poor immune function"
+    },
+    {
+      "value": 126,
+      "label": "Poor wool"
+    },
+    {
+      "value": 127,
+      "label": "Puffed_up Feather"
+    },
+    {
+      "value": 128,
+      "label": "Pyrexia"
+    },
+    {
+      "value": 129,
+      "label": "Radip onset"
+    },
+    {
+      "value": 130,
+      "label": "Red Tinge"
+    },
+    {
+      "value": 131,
+      "label": "Red on affected area"
+    },
+    {
+      "value": 132,
+      "label": "Red skin"
+    },
+    {
+      "value": 133,
+      "label": "Reluctant Move"
+    },
+    {
+      "value": 134,
+      "label": "Respiratory distress"
+    },
+    {
+      "value": 135,
+      "label": "Restlessness"
+    },
+    {
+      "value": 136,
+      "label": "Rhinitis"
+    },
+    {
+      "value": 137,
+      "label": "Ring shaped Lesion"
+    },
+    {
+      "value": 138,
+      "label": "Ruffled Appearance"
+    },
+    {
+      "value": 139,
+      "label": "Runny nose"
+    },
+    {
+      "value": 140,
+      "label": "Scabs On feet"
+    },
+    {
+      "value": 141,
+      "label": "Scaly patches of skin"
+    },
+    {
+      "value": 142,
+      "label": "Sensitivity to bright light"
+    },
+    {
+      "value": 143,
+      "label": "Severe"
+    },
+    {
+      "value": 144,
+      "label": "Severe kerititis"
+    },
+    {
+      "value": 145,
+      "label": "Severe swellimg"
+    },
+    {
+      "value": 146,
+      "label": "Shaking head"
+    },
+    {
+      "value": 147,
+      "label": "Shallow breathing"
+    },
+    {
+      "value": 148,
+      "label": "Sharp Feather"
+    },
+    {
+      "value": 149,
+      "label": "Sheep often bites"
+    },
+    {
+      "value": 150,
+      "label": "Short term lethargy"
+    },
+    {
+      "value": 151,
+      "label": "Shortness of breath."
+    },
+    {
+      "value": 152,
+      "label": "Sickness"
+    },
+    {
+      "value": 153,
+      "label": "Signs in rams"
+    },
+    {
+      "value": 154,
+      "label": "Sinuses"
+    },
+    {
+      "value": 155,
+      "label": "Skeleten abnormalities"
+    },
+    {
+      "value": 156,
+      "label": "Skin color change"
+    },
+    {
+      "value": 157,
+      "label": "Skin infection"
+    },
+    {
+      "value": 158,
+      "label": "Skin irritation"
+    },
+    {
+      "value": 159,
+      "label": "Skin rashes"
+    },
+    {
+      "value": 160,
+      "label": "SkinAllergy"
+    },
+    {
+      "value": 161,
+      "label": "Small red bumps"
+    },
+    {
+      "value": 162,
+      "label": "Smell"
+    },
+    {
+      "value": 163,
+      "label": "Smell of ammonia"
+    },
+    {
+      "value": 164,
+      "label": "Sneezing"
+    },
+    {
+      "value": 165,
+      "label": "Sores on lip"
+    },
+    {
+      "value": 166,
+      "label": "Spines"
+    },
+    {
+      "value": 167,
+      "label": "Straining"
+    },
+    {
+      "value": 168,
+      "label": "Stripped remiges"
+    },
+    {
+      "value": 169,
+      "label": "Strong cough"
+    },
+    {
+      "value": 170,
+      "label": "Sudden death"
+    },
+    {
+      "value": 171,
+      "label": "Swaying"
+    },
+    {
+      "value": 172,
+      "label": "Swelling"
+    },
+    {
+      "value": 173,
+      "label": "Swelling of udder"
+    },
+    {
+      "value": 174,
+      "label": "Swelling on leg"
+    },
+    {
+      "value": 175,
+      "label": "Swollen"
+    },
+    {
+      "value": 176,
+      "label": "Swollen Belly"
+    },
+    {
+      "value": 177,
+      "label": "Swollen left abdomen"
+    },
+    {
+      "value": 178,
+      "label": "Swollen lymph nodes"
+    },
+    {
+      "value": 179,
+      "label": "Tail Wagging"
+    },
+    {
+      "value": 180,
+      "label": "Tear production"
+    },
+    {
+      "value": 181,
+      "label": "Teeth griding"
+    },
+    {
+      "value": 182,
+      "label": "Tenderness"
+    },
+    {
+      "value": 183,
+      "label": "Thick Crusting"
+    },
+    {
+      "value": 184,
+      "label": "Thicked skin"
+    },
+    {
+      "value": 185,
+      "label": "Thivk skin"
+    },
+    {
+      "value": 186,
+      "label": "Tremor "
+    },
+    {
+      "value": 187,
+      "label": "Tremor of head and neck"
+    },
+    {
+      "value": 188,
+      "label": "Tremors"
+    },
+    {
+      "value": 189,
+      "label": "Ulcers"
+    },
+    {
+      "value": 190,
+      "label": "Undigested in their feces"
+    },
+    {
+      "value": 191,
+      "label": "Unsteady Gait"
+    },
+    {
+      "value": 192,
+      "label": "Upset stomach"
+    },
+    {
+      "value": 193,
+      "label": "Vomiting"
+    },
+    {
+      "value": 194,
+      "label": "Wandering"
+    },
+    {
+      "value": 195,
+      "label": "Watering"
+    },
+    {
+      "value": 196,
+      "label": "Watering Diarrhea"
+    },
+    {
+      "value": 197,
+      "label": "Watering of eyes"
+    },
+    {
+      "value": 198,
+      "label": "Watery Diarrhea dispropotion"
+    },
+    {
+      "value": 199,
+      "label": "Watery Eyes"
+    },
+    {
+      "value": 200,
+      "label": "Weakness"
+    },
+    {
+      "value": 201,
+      "label": "Wether restless"
+    },
+    {
+      "value": 202,
+      "label": "Wheezing"
+    },
+    {
+      "value": 203,
+      "label": "Wool is clumped"
+    },
+    {
+      "value": 204,
+      "label": "burning ache or pain"
+    },
+    {
+      "value": 205,
+      "label": "changed gait"
+    },
+    {
+      "value": 206,
+      "label": "cough"
+    },
+    {
+      "value": 207,
+      "label": "cough\u00a0"
+    },
+    {
+      "value": 208,
+      "label": "difficulty swallowing"
+    },
+    {
+      "value": 209,
+      "label": "egg production decreases"
+    },
+    {
+      "value": 210,
+      "label": "extending its neck"
+    },
+    {
+      "value": 211,
+      "label": "eye discharges"
+    },
+    {
+      "value": 212,
+      "label": "feline infections"
+    },
+    {
+      "value": 213,
+      "label": "fever"
+    },
+    {
+      "value": 214,
+      "label": "haemorrhage"
+    },
+    {
+      "value": 215,
+      "label": "head tilt"
+    },
+    {
+      "value": 216,
+      "label": "lllthrift"
+    },
+    {
+      "value": 217,
+      "label": "loss in weight"
+    },
+    {
+      "value": 218,
+      "label": "loss of appetite"
+    },
+    {
+      "value": 219,
+      "label": "nausea"
+    },
+    {
+      "value": 220,
+      "label": "outstretched neck"
+    },
+    {
+      "value": 221,
+      "label": "paresis"
+    },
+    {
+      "value": 222,
+      "label": "stop eating"
+    },
+    {
+      "value": 223,
+      "label": "sudden death"
+    },
+    {
+      "value": 224,
+      "label": "sweating"
+    },
+    {
+      "value": 225,
+      "label": "swelling"
+    },
+    {
+      "value": 226,
+      "label": "swollen"
+    },
+    {
+      "value": 227,
+      "label": "unable to urinate"
+    },
+    {
+      "value": 228,
+      "label": "undernutrition"
+    },
+    {
+      "value": 229,
+      "label": "wasting"
+    },
+    {
+      "value": 230,
+      "label": "weakness"
+    },
+    {
+      "value": 231,
+      "label": "weight loss"
+    }
+  ],
+  "symptoms2": [
+    {
+      "value": 0,
+      "label": "Abdminal pain"
+    },
+    {
+      "value": 1,
+      "label": "Abdominal destention"
+    },
+    {
+      "value": 2,
+      "label": "Abortion"
+    },
+    {
+      "value": 3,
+      "label": "Achomotrica"
+    },
+    {
+      "value": 4,
+      "label": "Anemia"
+    },
+    {
+      "value": 5,
+      "label": "Animal become lame"
+    },
+    {
+      "value": 6,
+      "label": "Anoxeria"
+    },
+    {
+      "value": 7,
+      "label": "Anversion to light"
+    },
+    {
+      "value": 8,
+      "label": "Apathy"
+    },
+    {
+      "value": 9,
+      "label": "Ataxia"
+    },
+    {
+      "value": 10,
+      "label": "Aversion to light"
+    },
+    {
+      "value": 11,
+      "label": "Behaviour change"
+    },
+    {
+      "value": 12,
+      "label": "Blindness"
+    },
+    {
+      "value": 13,
+      "label": "Bloody Drool"
+    },
+    {
+      "value": 14,
+      "label": "Bloody diarrhea"
+    },
+    {
+      "value": 15,
+      "label": "Body stiffness"
+    },
+    {
+      "value": 16,
+      "label": "Bottle jaw"
+    },
+    {
+      "value": 17,
+      "label": "Broody behavior"
+    },
+    {
+      "value": 18,
+      "label": "Change in gait"
+    },
+    {
+      "value": 19,
+      "label": "Chills"
+    },
+    {
+      "value": 20,
+      "label": "Chronic eye inflamation"
+    },
+    {
+      "value": 21,
+      "label": "Circling"
+    },
+    {
+      "value": 22,
+      "label": "Clubbed Feather"
+    },
+    {
+      "value": 23,
+      "label": "Conjunctive"
+    },
+    {
+      "value": 24,
+      "label": "Convulsion"
+    },
+    {
+      "value": 25,
+      "label": "Crusty"
+    },
+    {
+      "value": 26,
+      "label": "Dandruff"
+    },
+    {
+      "value": 27,
+      "label": "Dandruff in cat coat"
+    },
+    {
+      "value": 28,
+      "label": "Dark colored bloody"
+    },
+    {
+      "value": 29,
+      "label": "Death"
+    },
+    {
+      "value": 30,
+      "label": "Depression"
+    },
+    {
+      "value": 31,
+      "label": "Diarrhea"
+    },
+    {
+      "value": 32,
+      "label": "Diffculty breathing"
+    },
+    {
+      "value": 33,
+      "label": "Difficultty in Breathing"
+    },
+    {
+      "value": 34,
+      "label": "Difficulty breathing"
+    },
+    {
+      "value": 35,
+      "label": "Difficulty in breathing"
+    },
+    {
+      "value": 36,
+      "label": "Difficulty in walking"
+    },
+    {
+      "value": 37,
+      "label": "Difficulty walking"
+    },
+    {
+      "value": 38,
+      "label": "Diffulty Swallowing"
+    },
+    {
+      "value": 39,
+      "label": "Diffulty chewing"
+    },
+    {
+      "value": 40,
+      "label": "Discharge from ear"
+    },
+    {
+      "value": 41,
+      "label": "Discomfort"
+    },
+    {
+      "value": 42,
+      "label": "Disharge from affected eye"
+    },
+    {
+      "value": 43,
+      "label": "Distress"
+    },
+    {
+      "value": 44,
+      "label": "Dull"
+    },
+    {
+      "value": 45,
+      "label": "Dullness"
+    },
+    {
+      "value": 46,
+      "label": "Dysentery"
+    },
+    {
+      "value": 47,
+      "label": "Dyspnea"
+    },
+    {
+      "value": 48,
+      "label": "Edema in lower jaw"
+    },
+    {
+      "value": 49,
+      "label": "Enlarged lymph nodes"
+    },
+    {
+      "value": 50,
+      "label": "Epistaxis"
+    },
+    {
+      "value": 51,
+      "label": "Erythema"
+    },
+    {
+      "value": 52,
+      "label": "Excession Salivation"
+    },
+    {
+      "value": 53,
+      "label": "Exhaustion"
+    },
+    {
+      "value": 54,
+      "label": "Eye closed"
+    },
+    {
+      "value": 55,
+      "label": "Eye redness"
+    },
+    {
+      "value": 56,
+      "label": "Eye ulcer"
+    },
+    {
+      "value": 57,
+      "label": "Facial defects"
+    },
+    {
+      "value": 58,
+      "label": "Facial muscle twitching"
+    },
+    {
+      "value": 59,
+      "label": "Fatigue"
+    },
+    {
+      "value": 60,
+      "label": "Feather Plucking"
+    },
+    {
+      "value": 61,
+      "label": "Feels stiff"
+    },
+    {
+      "value": 62,
+      "label": "Fell unwell"
+    },
+    {
+      "value": 63,
+      "label": "Fleece become thin"
+    },
+    {
+      "value": 64,
+      "label": "Foot Hot"
+    },
+    {
+      "value": 65,
+      "label": "Frequent eye Infections"
+    },
+    {
+      "value": 66,
+      "label": "Hair loss"
+    },
+    {
+      "value": 67,
+      "label": "Hair tining"
+    },
+    {
+      "value": 68,
+      "label": "Halitosis"
+    },
+    {
+      "value": 69,
+      "label": "Heat"
+    },
+    {
+      "value": 70,
+      "label": "Heavy Breathing"
+    },
+    {
+      "value": 71,
+      "label": "Hemolytic anemia"
+    },
+    {
+      "value": 72,
+      "label": "Hepatic failure"
+    },
+    {
+      "value": 73,
+      "label": "Hepatitis"
+    },
+    {
+      "value": 74,
+      "label": "Holding limbs off the ground"
+    },
+    {
+      "value": 75,
+      "label": "Horny growth"
+    },
+    {
+      "value": 76,
+      "label": "Hot joints"
+    },
+    {
+      "value": 77,
+      "label": "Infection"
+    },
+    {
+      "value": 78,
+      "label": "Inflammed eye"
+    },
+    {
+      "value": 79,
+      "label": "Itchiness"
+    },
+    {
+      "value": 80,
+      "label": "Kick"
+    },
+    {
+      "value": 81,
+      "label": "Kicking"
+    },
+    {
+      "value": 82,
+      "label": "Lack of coordination"
+    },
+    {
+      "value": 83,
+      "label": "Lack of flying"
+    },
+    {
+      "value": 84,
+      "label": "Lack of pigmentation"
+    },
+    {
+      "value": 85,
+      "label": "Lacrimation"
+    },
+    {
+      "value": 86,
+      "label": "Lame"
+    },
+    {
+      "value": 87,
+      "label": "Lameness"
+    },
+    {
+      "value": 88,
+      "label": "Larynx"
+    },
+    {
+      "value": 89,
+      "label": "Lesions "
+    },
+    {
+      "value": 90,
+      "label": "Lesions on nose"
+    },
+    {
+      "value": 91,
+      "label": "Less Eat"
+    },
+    {
+      "value": 92,
+      "label": "Less Feather growth"
+    },
+    {
+      "value": 93,
+      "label": "Lethargy"
+    },
+    {
+      "value": 94,
+      "label": "Lightheadedness\u00a0"
+    },
+    {
+      "value": 95,
+      "label": "Loss of  appetite"
+    },
+    {
+      "value": 96,
+      "label": "Loss of Appetite"
+    },
+    {
+      "value": 97,
+      "label": "Loss of appetite"
+    },
+    {
+      "value": 98,
+      "label": "Loss of consciousness"
+    },
+    {
+      "value": 99,
+      "label": "Loss of earing"
+    },
+    {
+      "value": 100,
+      "label": "Lying Down"
+    },
+    {
+      "value": 101,
+      "label": "Lying on the side"
+    },
+    {
+      "value": 102,
+      "label": "Malaise"
+    },
+    {
+      "value": 103,
+      "label": "Mild sneezing"
+    },
+    {
+      "value": 104,
+      "label": "Mummification"
+    },
+    {
+      "value": 105,
+      "label": "Muscle Loss"
+    },
+    {
+      "value": 106,
+      "label": "Muscular Spasms"
+    },
+    {
+      "value": 107,
+      "label": "Nasal discharge"
+    },
+    {
+      "value": 108,
+      "label": "Nervousness"
+    },
+    {
+      "value": 109,
+      "label": "Neurologic sign"
+    },
+    {
+      "value": 110,
+      "label": "No appp"
+    },
+    {
+      "value": 111,
+      "label": "Nosebleeds"
+    },
+    {
+      "value": 112,
+      "label": "Nostrils"
+    },
+    {
+      "value": 113,
+      "label": "Obstructed Lungs"
+    },
+    {
+      "value": 114,
+      "label": "Oral lesion"
+    },
+    {
+      "value": 115,
+      "label": "Painfull"
+    },
+    {
+      "value": 116,
+      "label": "Pains to Walk"
+    },
+    {
+      "value": 117,
+      "label": "Paresis"
+    },
+    {
+      "value": 118,
+      "label": "Pawing at the face or nose"
+    },
+    {
+      "value": 119,
+      "label": "Pneumonia\u00a0"
+    },
+    {
+      "value": 120,
+      "label": "Poor appetite"
+    },
+    {
+      "value": 121,
+      "label": "Poor coat condition"
+    },
+    {
+      "value": 122,
+      "label": "Pox lession on skin"
+    },
+    {
+      "value": 123,
+      "label": "Preening"
+    },
+    {
+      "value": 124,
+      "label": "Rapid Breathing"
+    },
+    {
+      "value": 125,
+      "label": "Redness "
+    },
+    {
+      "value": 126,
+      "label": "Redness of eye"
+    },
+    {
+      "value": 127,
+      "label": "Redness of white of the eye"
+    },
+    {
+      "value": 128,
+      "label": "Reduce Reproductive potential"
+    },
+    {
+      "value": 129,
+      "label": "Reduce growth"
+    },
+    {
+      "value": 130,
+      "label": "Regurgitation of food"
+    },
+    {
+      "value": 131,
+      "label": "Respiratory distress"
+    },
+    {
+      "value": 132,
+      "label": "Rhinorrhea"
+    },
+    {
+      "value": 133,
+      "label": "Rough coat"
+    },
+    {
+      "value": 134,
+      "label": "Round patches"
+    },
+    {
+      "value": 135,
+      "label": "Runny nose"
+    },
+    {
+      "value": 136,
+      "label": "Scartching"
+    },
+    {
+      "value": 137,
+      "label": "Scartching ear"
+    },
+    {
+      "value": 138,
+      "label": "Secondary Infection"
+    },
+    {
+      "value": 139,
+      "label": "Seizures"
+    },
+    {
+      "value": 140,
+      "label": "Severe headache"
+    },
+    {
+      "value": 141,
+      "label": "Short stature"
+    },
+    {
+      "value": 142,
+      "label": "Sick"
+    },
+    {
+      "value": 143,
+      "label": "Signs in ewe"
+    },
+    {
+      "value": 144,
+      "label": "Skin Lesion"
+    },
+    {
+      "value": 145,
+      "label": "Skin Rashes"
+    },
+    {
+      "value": 146,
+      "label": "Skin colour change"
+    },
+    {
+      "value": 147,
+      "label": "Skin may thicken"
+    },
+    {
+      "value": 148,
+      "label": "Slightly Swollen"
+    },
+    {
+      "value": 149,
+      "label": "Slim over the shell"
+    },
+    {
+      "value": 150,
+      "label": "Small and yellow bumps"
+    },
+    {
+      "value": 151,
+      "label": "Sneezing"
+    },
+    {
+      "value": 152,
+      "label": "Sore"
+    },
+    {
+      "value": 153,
+      "label": "Sour Throat"
+    },
+    {
+      "value": 154,
+      "label": "Speech delay"
+    },
+    {
+      "value": 155,
+      "label": "Splenomegaly"
+    },
+    {
+      "value": 156,
+      "label": "Staggering as drunk"
+    },
+    {
+      "value": 157,
+      "label": "Stealing "
+    },
+    {
+      "value": 158,
+      "label": "Stiff"
+    },
+    {
+      "value": 159,
+      "label": "Stiffness"
+    },
+    {
+      "value": 160,
+      "label": "Stillbirth"
+    },
+    {
+      "value": 161,
+      "label": "Straining"
+    },
+    {
+      "value": 162,
+      "label": "Straw colored"
+    },
+    {
+      "value": 163,
+      "label": "Succumb"
+    },
+    {
+      "value": 164,
+      "label": "Sudden Abortion"
+    },
+    {
+      "value": 165,
+      "label": "Sudden Death"
+    },
+    {
+      "value": 166,
+      "label": "Swelling"
+    },
+    {
+      "value": 167,
+      "label": "Swelling  in the bite area"
+    },
+    {
+      "value": 168,
+      "label": "Swelling of eye"
+    },
+    {
+      "value": 169,
+      "label": "Swelling of face or leg"
+    },
+    {
+      "value": 170,
+      "label": "Swollen Eyelids"
+    },
+    {
+      "value": 171,
+      "label": "Tachypea"
+    },
+    {
+      "value": 172,
+      "label": "Tensemus"
+    },
+    {
+      "value": 173,
+      "label": "Testical Pain"
+    },
+    {
+      "value": 174,
+      "label": "Tiredness"
+    },
+    {
+      "value": 175,
+      "label": "Torticollis"
+    },
+    {
+      "value": 176,
+      "label": "Trauma"
+    },
+    {
+      "value": 177,
+      "label": "Trouble walking"
+    },
+    {
+      "value": 178,
+      "label": "Twitching"
+    },
+    {
+      "value": 179,
+      "label": "Ulcer"
+    },
+    {
+      "value": 180,
+      "label": "Ulcer on gum"
+    },
+    {
+      "value": 181,
+      "label": "Uncharacteristic hiding"
+    },
+    {
+      "value": 182,
+      "label": "Unilateral Nasal discharge"
+    },
+    {
+      "value": 183,
+      "label": "Unusally thin"
+    },
+    {
+      "value": 184,
+      "label": "Uteria inertia"
+    },
+    {
+      "value": 185,
+      "label": "Very cold skin"
+    },
+    {
+      "value": 186,
+      "label": "Viability"
+    },
+    {
+      "value": 187,
+      "label": "Warm"
+    },
+    {
+      "value": 188,
+      "label": "Wasting"
+    },
+    {
+      "value": 189,
+      "label": "Weakness"
+    },
+    {
+      "value": 190,
+      "label": "Weekness"
+    },
+    {
+      "value": 191,
+      "label": "Wheezing"
+    },
+    {
+      "value": 192,
+      "label": "Willnot run to jump"
+    },
+    {
+      "value": 193,
+      "label": "Wool loss"
+    },
+    {
+      "value": 194,
+      "label": "Wound lesion"
+    },
+    {
+      "value": 195,
+      "label": "Yellow in beak"
+    },
+    {
+      "value": 196,
+      "label": "Yellow or green dropping"
+    },
+    {
+      "value": 197,
+      "label": "bloody discharge"
+    },
+    {
+      "value": 198,
+      "label": "change in milk"
+    },
+    {
+      "value": 199,
+      "label": "confusion"
+    },
+    {
+      "value": 200,
+      "label": "coughing\u00a0"
+    },
+    {
+      "value": 201,
+      "label": "cough\u00a0"
+    },
+    {
+      "value": 202,
+      "label": "decreased stool production"
+    },
+    {
+      "value": 203,
+      "label": "diarrhea"
+    },
+    {
+      "value": 204,
+      "label": "dizziness and fainting"
+    },
+    {
+      "value": 205,
+      "label": "drinking polluted water"
+    },
+    {
+      "value": 206,
+      "label": "dry or tacky gums"
+    },
+    {
+      "value": 207,
+      "label": "dull ness"
+    },
+    {
+      "value": 208,
+      "label": "emaciation"
+    },
+    {
+      "value": 209,
+      "label": "gasping for air"
+    },
+    {
+      "value": 210,
+      "label": "high body temperaure"
+    },
+    {
+      "value": 211,
+      "label": "high temperature"
+    },
+    {
+      "value": 212,
+      "label": "lathargy"
+    },
+    {
+      "value": 213,
+      "label": "loss of appetite"
+    },
+    {
+      "value": 214,
+      "label": "lymphosarcoma"
+    },
+    {
+      "value": 215,
+      "label": "mild colic"
+    },
+    {
+      "value": 216,
+      "label": "morbidity"
+    },
+    {
+      "value": 217,
+      "label": "muscular spasms"
+    },
+    {
+      "value": 218,
+      "label": "nasal discharge"
+    },
+    {
+      "value": 219,
+      "label": "panting"
+    },
+    {
+      "value": 220,
+      "label": "paralysis"
+    },
+    {
+      "value": 221,
+      "label": "red-colored "
+    },
+    {
+      "value": 222,
+      "label": "sneeze"
+    },
+    {
+      "value": 223,
+      "label": "stop drinking"
+    },
+    {
+      "value": 224,
+      "label": "stumbling"
+    },
+    {
+      "value": 225,
+      "label": "stunted growth"
+    },
+    {
+      "value": 226,
+      "label": "swelling problem"
+    },
+    {
+      "value": 227,
+      "label": "thirst"
+    },
+    {
+      "value": 228,
+      "label": "vomiting"
+    },
+    {
+      "value": 229,
+      "label": "weakened legs"
+    }
+  ],
+  "symptoms3": [
+    {
+      "value": 0,
+      "label": "Abdominal discomfort"
+    },
+    {
+      "value": 1,
+      "label": "Abdominal pain"
+    },
+    {
+      "value": 2,
+      "label": "Abnormal conformation"
+    },
+    {
+      "value": 3,
+      "label": "Abnormally long leg"
+    },
+    {
+      "value": 4,
+      "label": "Agalactia"
+    },
+    {
+      "value": 5,
+      "label": "Aggressiveness"
+    },
+    {
+      "value": 6,
+      "label": "Asymptomatic"
+    },
+    {
+      "value": 7,
+      "label": "Ataxia"
+    },
+    {
+      "value": 8,
+      "label": "Attack"
+    },
+    {
+      "value": 9,
+      "label": "Back Pain"
+    },
+    {
+      "value": 10,
+      "label": "Bad smell"
+    },
+    {
+      "value": 11,
+      "label": "Black on ear"
+    },
+    {
+      "value": 12,
+      "label": "Blindness"
+    },
+    {
+      "value": 13,
+      "label": "Blood in stool"
+    },
+    {
+      "value": 14,
+      "label": "Blood on faces"
+    },
+    {
+      "value": 15,
+      "label": "Bloody"
+    },
+    {
+      "value": 16,
+      "label": "Bloody Diarrhea"
+    },
+    {
+      "value": 17,
+      "label": "Bloody droping"
+    },
+    {
+      "value": 18,
+      "label": "Blooody Fluid"
+    },
+    {
+      "value": 19,
+      "label": "Blue colored lip"
+    },
+    {
+      "value": 20,
+      "label": "Blue straws"
+    },
+    {
+      "value": 21,
+      "label": "Bluish white opacity"
+    },
+    {
+      "value": 22,
+      "label": "Blurry vision"
+    },
+    {
+      "value": 23,
+      "label": "Bottle Jaw"
+    },
+    {
+      "value": 24,
+      "label": "Clearly unthrifty"
+    },
+    {
+      "value": 25,
+      "label": "Colic"
+    },
+    {
+      "value": 26,
+      "label": "Congestion"
+    },
+    {
+      "value": 27,
+      "label": "Conjuctivtis"
+    },
+    {
+      "value": 28,
+      "label": "Constipation"
+    },
+    {
+      "value": 29,
+      "label": "Convulsion"
+    },
+    {
+      "value": 30,
+      "label": "Corneal Ulceration"
+    },
+    {
+      "value": 31,
+      "label": "Coughing"
+    },
+    {
+      "value": 32,
+      "label": "Crusty"
+    },
+    {
+      "value": 33,
+      "label": "Crusty eye lashes and matting of eyelashes"
+    },
+    {
+      "value": 34,
+      "label": "Darkened skin"
+    },
+    {
+      "value": 35,
+      "label": "Death"
+    },
+    {
+      "value": 36,
+      "label": "Decreased appetite"
+    },
+    {
+      "value": 37,
+      "label": "Dehydration"
+    },
+    {
+      "value": 38,
+      "label": "Depression"
+    },
+    {
+      "value": 39,
+      "label": "Despression"
+    },
+    {
+      "value": 40,
+      "label": "Diarrhea"
+    },
+    {
+      "value": 41,
+      "label": "Difficult in respiration"
+    },
+    {
+      "value": 42,
+      "label": "Difficulty in Swallowing"
+    },
+    {
+      "value": 43,
+      "label": "Difficulty in rising"
+    },
+    {
+      "value": 44,
+      "label": "Dilation of duodenum"
+    },
+    {
+      "value": 45,
+      "label": "Dirty"
+    },
+    {
+      "value": 46,
+      "label": "Discharge"
+    },
+    {
+      "value": 47,
+      "label": "Dribbling of saliva"
+    },
+    {
+      "value": 48,
+      "label": "Drooling"
+    },
+    {
+      "value": 49,
+      "label": "Dry or dull hair"
+    },
+    {
+      "value": 50,
+      "label": "Dry skin"
+    },
+    {
+      "value": 51,
+      "label": "Dullness"
+    },
+    {
+      "value": 52,
+      "label": "Ear infection"
+    },
+    {
+      "value": 53,
+      "label": "Edema in lower jaw"
+    },
+    {
+      "value": 54,
+      "label": "Emaciation"
+    },
+    {
+      "value": 55,
+      "label": "Enlargement of bones"
+    },
+    {
+      "value": 56,
+      "label": "Enteritis"
+    },
+    {
+      "value": 57,
+      "label": "Excess salivary"
+    },
+    {
+      "value": 58,
+      "label": "Excessive drooling"
+    },
+    {
+      "value": 59,
+      "label": "Eye disharge"
+    },
+    {
+      "value": 60,
+      "label": "Eyeproblem"
+    },
+    {
+      "value": 61,
+      "label": "Facial Paralysis"
+    },
+    {
+      "value": 62,
+      "label": "Fast breathing"
+    },
+    {
+      "value": 63,
+      "label": "Fever"
+    },
+    {
+      "value": 64,
+      "label": "Flabby"
+    },
+    {
+      "value": 65,
+      "label": "Flank"
+    },
+    {
+      "value": 66,
+      "label": "Foul Breath"
+    },
+    {
+      "value": 67,
+      "label": "Gagging"
+    },
+    {
+      "value": 68,
+      "label": "Grinding of teeth"
+    },
+    {
+      "value": 69,
+      "label": "Grunting"
+    },
+    {
+      "value": 70,
+      "label": "Gums"
+    },
+    {
+      "value": 71,
+      "label": "Hair loss"
+    },
+    {
+      "value": 72,
+      "label": "Hardness"
+    },
+    {
+      "value": 73,
+      "label": "Headache"
+    },
+    {
+      "value": 74,
+      "label": "Hemoglobinuria"
+    },
+    {
+      "value": 75,
+      "label": "High moratality"
+    },
+    {
+      "value": 76,
+      "label": "Hind quarted soil"
+    },
+    {
+      "value": 77,
+      "label": "Hydrophobia"
+    },
+    {
+      "value": 78,
+      "label": "Hyperaestesia"
+    },
+    {
+      "value": 79,
+      "label": "Incoordination"
+    },
+    {
+      "value": 80,
+      "label": "Infection of the skin"
+    },
+    {
+      "value": 81,
+      "label": "Inflammation"
+    },
+    {
+      "value": 82,
+      "label": "Intellectual disability"
+    },
+    {
+      "value": 83,
+      "label": "Itches"
+    },
+    {
+      "value": 84,
+      "label": "Kicking at the belly"
+    },
+    {
+      "value": 85,
+      "label": "Kid moratality"
+    },
+    {
+      "value": 86,
+      "label": "Kidney failure"
+    },
+    {
+      "value": 87,
+      "label": "Lameness"
+    },
+    {
+      "value": 88,
+      "label": "Lession on the skin"
+    },
+    {
+      "value": 89,
+      "label": "Lethargy"
+    },
+    {
+      "value": 90,
+      "label": "Loss of appetite"
+    },
+    {
+      "value": 91,
+      "label": "Loss of pigment"
+    },
+    {
+      "value": 92,
+      "label": "Loss of wool"
+    },
+    {
+      "value": 93,
+      "label": "Lying down"
+    },
+    {
+      "value": 94,
+      "label": "Malpresentation"
+    },
+    {
+      "value": 95,
+      "label": "Moist"
+    },
+    {
+      "value": 96,
+      "label": "Mortality"
+    },
+    {
+      "value": 97,
+      "label": "Mucous discharge"
+    },
+    {
+      "value": 98,
+      "label": "Muscle Trembling"
+    },
+    {
+      "value": 99,
+      "label": "Muscle twiching"
+    },
+    {
+      "value": 100,
+      "label": "Muscle weakness"
+    },
+    {
+      "value": 101,
+      "label": "Muscles ache"
+    },
+    {
+      "value": 102,
+      "label": "Muscus"
+    },
+    {
+      "value": 103,
+      "label": "Nasal Discharge"
+    },
+    {
+      "value": 104,
+      "label": "Nasal discharge"
+    },
+    {
+      "value": 105,
+      "label": "Nause"
+    },
+    {
+      "value": 106,
+      "label": "Neck Paralysis"
+    },
+    {
+      "value": 107,
+      "label": "Nervous"
+    },
+    {
+      "value": 108,
+      "label": "Nesting behaviour"
+    },
+    {
+      "value": 109,
+      "label": "Normal appetite"
+    },
+    {
+      "value": 110,
+      "label": "Nose Bleeds"
+    },
+    {
+      "value": 111,
+      "label": "Occular discharge"
+    },
+    {
+      "value": 112,
+      "label": "Painfull to touch"
+    },
+    {
+      "value": 113,
+      "label": "Paralysis"
+    },
+    {
+      "value": 114,
+      "label": "Paralyzed leg"
+    },
+    {
+      "value": 115,
+      "label": "Poor Appetite"
+    },
+    {
+      "value": 116,
+      "label": "Poor conformation"
+    },
+    {
+      "value": 117,
+      "label": "Pot belly"
+    },
+    {
+      "value": 118,
+      "label": "Prostrat"
+    },
+    {
+      "value": 119,
+      "label": "Purplish combs"
+    },
+    {
+      "value": 120,
+      "label": "Pustulses"
+    },
+    {
+      "value": 121,
+      "label": "Red eye"
+    },
+    {
+      "value": 122,
+      "label": "Red patches"
+    },
+    {
+      "value": 123,
+      "label": "Reduce Energy"
+    },
+    {
+      "value": 124,
+      "label": "Relunctance to move"
+    },
+    {
+      "value": 125,
+      "label": "Relunctance to walk"
+    },
+    {
+      "value": 126,
+      "label": "Respiratory distress"
+    },
+    {
+      "value": 127,
+      "label": "Retained Placenda"
+    },
+    {
+      "value": 128,
+      "label": "Retarded Growth"
+    },
+    {
+      "value": 129,
+      "label": "Rough Hair coat"
+    },
+    {
+      "value": 130,
+      "label": "Roughened"
+    },
+    {
+      "value": 131,
+      "label": "Rub"
+    },
+    {
+      "value": 132,
+      "label": "Ruffled feathers"
+    },
+    {
+      "value": 133,
+      "label": "Scabs"
+    },
+    {
+      "value": 134,
+      "label": "Scaly skin"
+    },
+    {
+      "value": 135,
+      "label": "Scartches"
+    },
+    {
+      "value": 136,
+      "label": "Scartching ear"
+    },
+    {
+      "value": 137,
+      "label": "Seizuers"
+    },
+    {
+      "value": 138,
+      "label": "Self Mutilation"
+    },
+    {
+      "value": 139,
+      "label": "Septic Arthritis"
+    },
+    {
+      "value": 140,
+      "label": "Severe colic"
+    },
+    {
+      "value": 141,
+      "label": "Skeleten pain"
+    },
+    {
+      "value": 142,
+      "label": "Skin rashes"
+    },
+    {
+      "value": 143,
+      "label": "Skin reashes"
+    },
+    {
+      "value": 144,
+      "label": "Skin ulcer"
+    },
+    {
+      "value": 145,
+      "label": "Slow growth"
+    },
+    {
+      "value": 146,
+      "label": "Sluggish"
+    },
+    {
+      "value": 147,
+      "label": "Small intestines"
+    },
+    {
+      "value": 148,
+      "label": "Sneezing"
+    },
+    {
+      "value": 149,
+      "label": "Sores on lower leg and teats"
+    },
+    {
+      "value": 150,
+      "label": "Spread of infection"
+    },
+    {
+      "value": 151,
+      "label": "Staggering"
+    },
+    {
+      "value": 152,
+      "label": "Stand with head droping"
+    },
+    {
+      "value": 153,
+      "label": "Stillbirth"
+    },
+    {
+      "value": 154,
+      "label": "Strange behaviour"
+    },
+    {
+      "value": 155,
+      "label": "Stress"
+    },
+    {
+      "value": 156,
+      "label": "Stumbling"
+    },
+    {
+      "value": 157,
+      "label": "Sudden death"
+    },
+    {
+      "value": 158,
+      "label": "Sweat"
+    },
+    {
+      "value": 159,
+      "label": "Sweats"
+    },
+    {
+      "value": 160,
+      "label": "Swelling"
+    },
+    {
+      "value": 161,
+      "label": "Swelling "
+    },
+    {
+      "value": 162,
+      "label": "Swelling may occur under jaw"
+    },
+    {
+      "value": 163,
+      "label": "Swelling of eyelid"
+    },
+    {
+      "value": 164,
+      "label": "Swelling of head and neck"
+    },
+    {
+      "value": 165,
+      "label": "Swelling of neck"
+    },
+    {
+      "value": 166,
+      "label": "Swelling on jaw"
+    },
+    {
+      "value": 167,
+      "label": "Swollen"
+    },
+    {
+      "value": 168,
+      "label": "Swollen Abdomen"
+    },
+    {
+      "value": 169,
+      "label": "Swollen kidney"
+    },
+    {
+      "value": 170,
+      "label": "Tail_Bobbing"
+    },
+    {
+      "value": 171,
+      "label": "Tear produce"
+    },
+    {
+      "value": 172,
+      "label": "Thrist and urination"
+    },
+    {
+      "value": 173,
+      "label": "Trachea"
+    },
+    {
+      "value": 174,
+      "label": "Trembling"
+    },
+    {
+      "value": 175,
+      "label": "Tremor"
+    },
+    {
+      "value": 176,
+      "label": "Tremors of the head"
+    },
+    {
+      "value": 177,
+      "label": "Underdeveloped muscles"
+    },
+    {
+      "value": 178,
+      "label": "Vitamin and minerals defiency"
+    },
+    {
+      "value": 179,
+      "label": "Vomiting"
+    },
+    {
+      "value": 180,
+      "label": "Wart-like growth"
+    },
+    {
+      "value": 181,
+      "label": "Wasting"
+    },
+    {
+      "value": 182,
+      "label": "Watery Stool"
+    },
+    {
+      "value": 183,
+      "label": "Weakness"
+    },
+    {
+      "value": 184,
+      "label": "Weekness in the back legs"
+    },
+    {
+      "value": 185,
+      "label": "Weight loss"
+    },
+    {
+      "value": 186,
+      "label": "Wool loss"
+    },
+    {
+      "value": 187,
+      "label": "Wound"
+    },
+    {
+      "value": 188,
+      "label": "Yellow Eye"
+    },
+    {
+      "value": 189,
+      "label": "abnormalalities"
+    },
+    {
+      "value": 190,
+      "label": "abortion"
+    },
+    {
+      "value": 191,
+      "label": "abscessess"
+    },
+    {
+      "value": 192,
+      "label": "bleeding from wounds"
+    },
+    {
+      "value": 193,
+      "label": "change their normal behaviour"
+    },
+    {
+      "value": 194,
+      "label": "chewing"
+    },
+    {
+      "value": 195,
+      "label": "chirping"
+    },
+    {
+      "value": 196,
+      "label": "cough\u00a0"
+    },
+    {
+      "value": 197,
+      "label": "difficulty breating"
+    },
+    {
+      "value": 198,
+      "label": "difficulty swallowing"
+    },
+    {
+      "value": 199,
+      "label": "diffuse"
+    },
+    {
+      "value": 200,
+      "label": "distended stomach"
+    },
+    {
+      "value": 201,
+      "label": "drooling"
+    },
+    {
+      "value": 202,
+      "label": "droopiness"
+    },
+    {
+      "value": 203,
+      "label": "droopy wings"
+    },
+    {
+      "value": 204,
+      "label": "facial swelling,"
+    },
+    {
+      "value": 205,
+      "label": "gasping for breath"
+    },
+    {
+      "value": 206,
+      "label": "hot udder"
+    },
+    {
+      "value": 207,
+      "label": "inappetence"
+    },
+    {
+      "value": 208,
+      "label": "inflamed nostrils"
+    },
+    {
+      "value": 209,
+      "label": "lack of appetite"
+    },
+    {
+      "value": 210,
+      "label": "lathargy"
+    },
+    {
+      "value": 211,
+      "label": "listlessness"
+    },
+    {
+      "value": 212,
+      "label": "los of the ability to walk"
+    },
+    {
+      "value": 213,
+      "label": "loss of appetite"
+    },
+    {
+      "value": 214,
+      "label": "loss of tail tone"
+    },
+    {
+      "value": 215,
+      "label": "mild weakness"
+    },
+    {
+      "value": 216,
+      "label": "muscles problem"
+    },
+    {
+      "value": 217,
+      "label": "muscular stiffness"
+    },
+    {
+      "value": 218,
+      "label": "rapid pulse and heart rates"
+    },
+    {
+      "value": 219,
+      "label": "reduced appetite"
+    },
+    {
+      "value": 220,
+      "label": "respiratory noise"
+    },
+    {
+      "value": 221,
+      "label": "ruffled feathers"
+    },
+    {
+      "value": 222,
+      "label": "swollen purple wattle"
+    },
+    {
+      "value": 223,
+      "label": "swollen teats"
+    },
+    {
+      "value": 224,
+      "label": "thirst"
+    },
+    {
+      "value": 225,
+      "label": "weak calves"
+    },
+    {
+      "value": 226,
+      "label": "weakness"
+    },
+    {
+      "value": 227,
+      "label": "wheezing"
+    },
+    {
+      "value": 228,
+      "label": "\u00a0rapid heartbeats"
+    }
+  ],
+  "symptoms4": [
+    {
+      "value": 0,
+      "label": "Abdominal discomfort"
+    },
+    {
+      "value": 1,
+      "label": "Abortion"
+    },
+    {
+      "value": 2,
+      "label": "Acting aggressive"
+    },
+    {
+      "value": 3,
+      "label": "Aneamia"
+    },
+    {
+      "value": 4,
+      "label": "Animal stop feed"
+    },
+    {
+      "value": 5,
+      "label": "Anorexia"
+    },
+    {
+      "value": 6,
+      "label": "Appetite"
+    },
+    {
+      "value": 7,
+      "label": "Attempt to urinate"
+    },
+    {
+      "value": 8,
+      "label": "Bad smell"
+    },
+    {
+      "value": 9,
+      "label": "Beak overgrowth"
+    },
+    {
+      "value": 10,
+      "label": "Bite other animals"
+    },
+    {
+      "value": 11,
+      "label": "Bleeding wounds"
+    },
+    {
+      "value": 12,
+      "label": "Blindness"
+    },
+    {
+      "value": 13,
+      "label": "Blood from mouth"
+    },
+    {
+      "value": 14,
+      "label": "Blood in faces"
+    },
+    {
+      "value": 15,
+      "label": "Bloody discharge"
+    },
+    {
+      "value": 16,
+      "label": "Broken Bones"
+    },
+    {
+      "value": 17,
+      "label": "Chest Pain"
+    },
+    {
+      "value": 18,
+      "label": "Circling"
+    },
+    {
+      "value": 19,
+      "label": "Cloacal pasting"
+    },
+    {
+      "value": 20,
+      "label": "Closed eyes"
+    },
+    {
+      "value": 21,
+      "label": "Clouded cornea"
+    },
+    {
+      "value": 22,
+      "label": "Colic"
+    },
+    {
+      "value": 23,
+      "label": "Consistency of milk"
+    },
+    {
+      "value": 24,
+      "label": "Cornea become cloudy"
+    },
+    {
+      "value": 25,
+      "label": "Coughing"
+    },
+    {
+      "value": 26,
+      "label": "Cramps"
+    },
+    {
+      "value": 27,
+      "label": "Crusting of the skin"
+    },
+    {
+      "value": 28,
+      "label": "Deability"
+    },
+    {
+      "value": 29,
+      "label": "Death"
+    },
+    {
+      "value": 30,
+      "label": "Death of lamb"
+    },
+    {
+      "value": 31,
+      "label": "Decresed egg production"
+    },
+    {
+      "value": 32,
+      "label": "Defienciency in vitamin"
+    },
+    {
+      "value": 33,
+      "label": "Dehydration"
+    },
+    {
+      "value": 34,
+      "label": "Depression"
+    },
+    {
+      "value": 35,
+      "label": "Diarrhea"
+    },
+    {
+      "value": 36,
+      "label": "Difficult in walking"
+    },
+    {
+      "value": 37,
+      "label": "Difficulty in Walk"
+    },
+    {
+      "value": 38,
+      "label": "Difficulty in breathing"
+    },
+    {
+      "value": 39,
+      "label": "Discharge from eye"
+    },
+    {
+      "value": 40,
+      "label": "Distinctive bumps"
+    },
+    {
+      "value": 41,
+      "label": "Dry Scabs"
+    },
+    {
+      "value": 42,
+      "label": "Dyspnea"
+    },
+    {
+      "value": 43,
+      "label": "Easily damage shell"
+    },
+    {
+      "value": 44,
+      "label": "Edematous"
+    },
+    {
+      "value": 45,
+      "label": "Endomeritis"
+    },
+    {
+      "value": 46,
+      "label": "Enlarged skulls"
+    },
+    {
+      "value": 47,
+      "label": "Enteritis"
+    },
+    {
+      "value": 48,
+      "label": "Excess sleeping"
+    },
+    {
+      "value": 49,
+      "label": "Excessive food intake"
+    },
+    {
+      "value": 50,
+      "label": "Excessive production"
+    },
+    {
+      "value": 51,
+      "label": "Exercise in tolerance"
+    },
+    {
+      "value": 52,
+      "label": "Exhaustion"
+    },
+    {
+      "value": 53,
+      "label": "Eye and Skin change"
+    },
+    {
+      "value": 54,
+      "label": "Facial edema"
+    },
+    {
+      "value": 55,
+      "label": "Firm"
+    },
+    {
+      "value": 56,
+      "label": "Flaky"
+    },
+    {
+      "value": 57,
+      "label": "Flat ribs"
+    },
+    {
+      "value": 58,
+      "label": "Flatulence"
+    },
+    {
+      "value": 59,
+      "label": "Gas or bloating"
+    },
+    {
+      "value": 60,
+      "label": "Green Dropping"
+    },
+    {
+      "value": 61,
+      "label": "Grinding teeth"
+    },
+    {
+      "value": 62,
+      "label": "Hair loss"
+    },
+    {
+      "value": 63,
+      "label": "Hairy Fleeces"
+    },
+    {
+      "value": 64,
+      "label": "Half-closed eye"
+    },
+    {
+      "value": 65,
+      "label": "Head Pressing"
+    },
+    {
+      "value": 66,
+      "label": "Head ache"
+    },
+    {
+      "value": 67,
+      "label": "Heat"
+    },
+    {
+      "value": 68,
+      "label": "Hematuria"
+    },
+    {
+      "value": 69,
+      "label": "Hoarseness"
+    },
+    {
+      "value": 70,
+      "label": "Hock joint"
+    },
+    {
+      "value": 71,
+      "label": "Hyper sensitivity"
+    },
+    {
+      "value": 72,
+      "label": "Hyperesthesia"
+    },
+    {
+      "value": 73,
+      "label": "Immediate death"
+    },
+    {
+      "value": 74,
+      "label": "Inability of Swalllon Feeding"
+    },
+    {
+      "value": 75,
+      "label": "Inappentence"
+    },
+    {
+      "value": 76,
+      "label": "Infected navels"
+    },
+    {
+      "value": 77,
+      "label": "Inflammation of eye"
+    },
+    {
+      "value": 78,
+      "label": "Iris prolapse"
+    },
+    {
+      "value": 79,
+      "label": "Irritation"
+    },
+    {
+      "value": 80,
+      "label": "Itching"
+    },
+    {
+      "value": 81,
+      "label": "Jaw is dropped"
+    },
+    {
+      "value": 82,
+      "label": "Jerky limb movements"
+    },
+    {
+      "value": 83,
+      "label": "Join pains"
+    },
+    {
+      "value": 84,
+      "label": "Labored breathing"
+    },
+    {
+      "value": 85,
+      "label": "Lameness"
+    },
+    {
+      "value": 86,
+      "label": "Lesion"
+    },
+    {
+      "value": 87,
+      "label": "Lethargy"
+    },
+    {
+      "value": 88,
+      "label": "Limp"
+    },
+    {
+      "value": 89,
+      "label": "Lip"
+    },
+    {
+      "value": 90,
+      "label": "Liver disease"
+    },
+    {
+      "value": 91,
+      "label": "Loss of appetite"
+    },
+    {
+      "value": 92,
+      "label": "Loss of milk production"
+    },
+    {
+      "value": 93,
+      "label": "Loss of powder down"
+    },
+    {
+      "value": 94,
+      "label": "Lumps"
+    },
+    {
+      "value": 95,
+      "label": "Mammary glads"
+    },
+    {
+      "value": 96,
+      "label": "Milk getting out more watery"
+    },
+    {
+      "value": 97,
+      "label": "Milky Hard"
+    },
+    {
+      "value": 98,
+      "label": "Mortality"
+    },
+    {
+      "value": 99,
+      "label": "Mouth lesion"
+    },
+    {
+      "value": 100,
+      "label": "Mucus discharge from the eye"
+    },
+    {
+      "value": 101,
+      "label": "Muscle aches"
+    },
+    {
+      "value": 102,
+      "label": "Muscle pain"
+    },
+    {
+      "value": 103,
+      "label": "Nasal"
+    },
+    {
+      "value": 104,
+      "label": "Nasal discharge"
+    },
+    {
+      "value": 105,
+      "label": "Nausea"
+    },
+    {
+      "value": 106,
+      "label": "Nible at their wool"
+    },
+    {
+      "value": 107,
+      "label": "Noisy Breathing"
+    },
+    {
+      "value": 108,
+      "label": "Nose picking"
+    },
+    {
+      "value": 109,
+      "label": "Odor to Ear"
+    },
+    {
+      "value": 110,
+      "label": "Pain"
+    },
+    {
+      "value": 111,
+      "label": "Painfull"
+    },
+    {
+      "value": 112,
+      "label": "Painfull Swalling"
+    },
+    {
+      "value": 113,
+      "label": "Pawing at bedding"
+    },
+    {
+      "value": 114,
+      "label": "Pot belly"
+    },
+    {
+      "value": 115,
+      "label": "Pox lesion"
+    },
+    {
+      "value": 116,
+      "label": "Production of mucus"
+    },
+    {
+      "value": 117,
+      "label": "Profuse"
+    },
+    {
+      "value": 118,
+      "label": "Progressive weakness"
+    },
+    {
+      "value": 119,
+      "label": "Pruritis"
+    },
+    {
+      "value": 120,
+      "label": "Rapid Heart Rate"
+    },
+    {
+      "value": 121,
+      "label": "Raw"
+    },
+    {
+      "value": 122,
+      "label": "Red Diarrhea"
+    },
+    {
+      "value": 123,
+      "label": "Red skin"
+    },
+    {
+      "value": 124,
+      "label": "Redness"
+    },
+    {
+      "value": 125,
+      "label": "Reduce feed"
+    },
+    {
+      "value": 126,
+      "label": "Reduce milk "
+    },
+    {
+      "value": 127,
+      "label": "Restlessness"
+    },
+    {
+      "value": 128,
+      "label": "Retching"
+    },
+    {
+      "value": 129,
+      "label": "Ruffled Coat"
+    },
+    {
+      "value": 130,
+      "label": "Ruminal stasis"
+    },
+    {
+      "value": 131,
+      "label": "Rump"
+    },
+    {
+      "value": 132,
+      "label": "Salivation"
+    },
+    {
+      "value": 133,
+      "label": "Scabbing"
+    },
+    {
+      "value": 134,
+      "label": "Scabs on lip"
+    },
+    {
+      "value": 135,
+      "label": "Scartch"
+    },
+    {
+      "value": 136,
+      "label": "Scartches"
+    },
+    {
+      "value": 137,
+      "label": "Scratches"
+    },
+    {
+      "value": 138,
+      "label": "Semen Examination"
+    },
+    {
+      "value": 139,
+      "label": "Severe inflammation"
+    },
+    {
+      "value": 140,
+      "label": "Shivering"
+    },
+    {
+      "value": 141,
+      "label": "Shock"
+    },
+    {
+      "value": 142,
+      "label": "Size of lesions vary"
+    },
+    {
+      "value": 143,
+      "label": "Skin Rashes"
+    },
+    {
+      "value": 144,
+      "label": "Skin infection"
+    },
+    {
+      "value": 145,
+      "label": "Skin rashes"
+    },
+    {
+      "value": 146,
+      "label": "Small size"
+    },
+    {
+      "value": 147,
+      "label": "Sneezing"
+    },
+    {
+      "value": 148,
+      "label": "Staggering"
+    },
+    {
+      "value": 149,
+      "label": "Stained Wool"
+    },
+    {
+      "value": 150,
+      "label": "Stiffness"
+    },
+    {
+      "value": 151,
+      "label": "Stomach cramps"
+    },
+    {
+      "value": 152,
+      "label": "Stomach growling"
+    },
+    {
+      "value": 153,
+      "label": "Stumbling"
+    },
+    {
+      "value": 154,
+      "label": "Swallowing"
+    },
+    {
+      "value": 155,
+      "label": "Swelling"
+    },
+    {
+      "value": 156,
+      "label": "Swelling on joints"
+    },
+    {
+      "value": 157,
+      "label": "Swelling on theBody"
+    },
+    {
+      "value": 158,
+      "label": "Swollen"
+    },
+    {
+      "value": 159,
+      "label": "Swollen comb"
+    },
+    {
+      "value": 160,
+      "label": "Swolling of joint"
+    },
+    {
+      "value": 161,
+      "label": "Tarry Stool"
+    },
+    {
+      "value": 162,
+      "label": "Tears"
+    },
+    {
+      "value": 163,
+      "label": "Tender to touch"
+    },
+    {
+      "value": 164,
+      "label": "Thickening of skin"
+    },
+    {
+      "value": 165,
+      "label": "Tiredness"
+    },
+    {
+      "value": 166,
+      "label": "Torticollis"
+    },
+    {
+      "value": 167,
+      "label": "Twitching"
+    },
+    {
+      "value": 168,
+      "label": "Ulcerated muscle"
+    },
+    {
+      "value": 169,
+      "label": "Unable To Eat"
+    },
+    {
+      "value": 170,
+      "label": "Urination"
+    },
+    {
+      "value": 171,
+      "label": "Urine infection"
+    },
+    {
+      "value": 172,
+      "label": "Urine retention"
+    },
+    {
+      "value": 173,
+      "label": "Vomiting"
+    },
+    {
+      "value": 174,
+      "label": "Walking problem"
+    },
+    {
+      "value": 175,
+      "label": "Wasting"
+    },
+    {
+      "value": 176,
+      "label": "Watery eye"
+    },
+    {
+      "value": 177,
+      "label": "Wattles"
+    },
+    {
+      "value": 178,
+      "label": "Weak Pulse"
+    },
+    {
+      "value": 179,
+      "label": "Weak kids"
+    },
+    {
+      "value": 180,
+      "label": "Weakness"
+    },
+    {
+      "value": 181,
+      "label": "Week legs"
+    },
+    {
+      "value": 182,
+      "label": "Weight loss"
+    },
+    {
+      "value": 183,
+      "label": "White mark on the muscle"
+    },
+    {
+      "value": 184,
+      "label": "Yellowish Discharge"
+    },
+    {
+      "value": 185,
+      "label": "congestion"
+    },
+    {
+      "value": 186,
+      "label": "diarrhea"
+    },
+    {
+      "value": 187,
+      "label": "difficulty diagnosis"
+    },
+    {
+      "value": 188,
+      "label": "difficulty swallowing"
+    },
+    {
+      "value": 189,
+      "label": "drooling"
+    },
+    {
+      "value": 190,
+      "label": "droopy wings"
+    },
+    {
+      "value": 191,
+      "label": "experiencing changes in weight"
+    },
+    {
+      "value": 192,
+      "label": "fluffed feathers"
+    },
+    {
+      "value": 193,
+      "label": "foul smelling stools"
+    },
+    {
+      "value": 194,
+      "label": "frequent yawning"
+    },
+    {
+      "value": 195,
+      "label": "gasping for air"
+    },
+    {
+      "value": 196,
+      "label": "gasping for breath"
+    },
+    {
+      "value": 197,
+      "label": "gurgling sound"
+    },
+    {
+      "value": 198,
+      "label": "heavy breathing"
+    },
+    {
+      "value": 199,
+      "label": "high body temperature"
+    },
+    {
+      "value": 200,
+      "label": "inability to fly"
+    },
+    {
+      "value": 201,
+      "label": "lameness in affected leg"
+    },
+    {
+      "value": 202,
+      "label": "loss of alertness"
+    },
+    {
+      "value": 203,
+      "label": "loss of appetite"
+    },
+    {
+      "value": 204,
+      "label": "lying down"
+    },
+    {
+      "value": 205,
+      "label": "noisy breathing"
+    },
+    {
+      "value": 206,
+      "label": "pain "
+    },
+    {
+      "value": 207,
+      "label": "pulmonary congestion"
+    },
+    {
+      "value": 208,
+      "label": "rectal bleeding"
+    },
+    {
+      "value": 209,
+      "label": "self-isolation"
+    },
+    {
+      "value": 210,
+      "label": "stomatitis"
+    },
+    {
+      "value": 211,
+      "label": "swollen lymph nodes"
+    },
+    {
+      "value": 212,
+      "label": "tiredness"
+    },
+    {
+      "value": 213,
+      "label": "twisted neck"
+    },
+    {
+      "value": 214,
+      "label": "urine dribbling"
+    },
+    {
+      "value": 215,
+      "label": "watery eyes"
+    },
+    {
+      "value": 216,
+      "label": "weakness"
+    }
+  ],
+  "symptoms5": [
+    {
+      "value": 0,
+      "label": " dizziness and fainting"
+    },
+    {
+      "value": 1,
+      "label": "Abdonormal discomfort"
+    },
+    {
+      "value": 2,
+      "label": "Abdonormal pain"
+    },
+    {
+      "value": 3,
+      "label": "Abnormal behaviour"
+    },
+    {
+      "value": 4,
+      "label": "Abnormalities"
+    },
+    {
+      "value": 5,
+      "label": "Acting unnaturally tame"
+    },
+    {
+      "value": 6,
+      "label": "Anaemia"
+    },
+    {
+      "value": 7,
+      "label": "Anemia"
+    },
+    {
+      "value": 8,
+      "label": "Anorexia"
+    },
+    {
+      "value": 9,
+      "label": "Arthritis"
+    },
+    {
+      "value": 10,
+      "label": "Ataxia"
+    },
+    {
+      "value": 11,
+      "label": "Black stool"
+    },
+    {
+      "value": 12,
+      "label": "Bleeding from the nose"
+    },
+    {
+      "value": 13,
+      "label": "Bleeding in eye and skin"
+    },
+    {
+      "value": 14,
+      "label": "Blindness"
+    },
+    {
+      "value": 15,
+      "label": "Blister"
+    },
+    {
+      "value": 16,
+      "label": "Blood Clots"
+    },
+    {
+      "value": 17,
+      "label": "Blood Poisioning "
+    },
+    {
+      "value": 18,
+      "label": "Bloody"
+    },
+    {
+      "value": 19,
+      "label": "Bloody Diarrhea"
+    },
+    {
+      "value": 20,
+      "label": "Bloody in feather"
+    },
+    {
+      "value": 21,
+      "label": "Blue Eye"
+    },
+    {
+      "value": 22,
+      "label": "Bumps(black,grey or red)"
+    },
+    {
+      "value": 23,
+      "label": "Carcass decomposes"
+    },
+    {
+      "value": 24,
+      "label": "Chest Pain"
+    },
+    {
+      "value": 25,
+      "label": "Colic"
+    },
+    {
+      "value": 26,
+      "label": "Congestion"
+    },
+    {
+      "value": 27,
+      "label": "Constipation"
+    },
+    {
+      "value": 28,
+      "label": "Convulsion"
+    },
+    {
+      "value": 29,
+      "label": "Death"
+    },
+    {
+      "value": 30,
+      "label": "Decrease appetite"
+    },
+    {
+      "value": 31,
+      "label": "Decrease in milk production"
+    },
+    {
+      "value": 32,
+      "label": "Dehydration"
+    },
+    {
+      "value": 33,
+      "label": "Depression"
+    },
+    {
+      "value": 34,
+      "label": "Diarrhea"
+    },
+    {
+      "value": 35,
+      "label": "Difficulty in Breathing"
+    },
+    {
+      "value": 36,
+      "label": "Diphtherictic"
+    },
+    {
+      "value": 37,
+      "label": "Distended chest"
+    },
+    {
+      "value": 38,
+      "label": "Distended stomach"
+    },
+    {
+      "value": 39,
+      "label": "Dizziness"
+    },
+    {
+      "value": 40,
+      "label": "Drop in milk production"
+    },
+    {
+      "value": 41,
+      "label": "Drop on egg production"
+    },
+    {
+      "value": 42,
+      "label": "Dry Hair coat"
+    },
+    {
+      "value": 43,
+      "label": "Dry air"
+    },
+    {
+      "value": 44,
+      "label": "Dullness"
+    },
+    {
+      "value": 45,
+      "label": "Dyspnea"
+    },
+    {
+      "value": 46,
+      "label": "Effort to breath"
+    },
+    {
+      "value": 47,
+      "label": "Emaciation"
+    },
+    {
+      "value": 48,
+      "label": "Enlarged lymph nodes"
+    },
+    {
+      "value": 49,
+      "label": "Enlarged lymph nodes or Swelling"
+    },
+    {
+      "value": 50,
+      "label": "Epistaxis"
+    },
+    {
+      "value": 51,
+      "label": "Eventually death"
+    },
+    {
+      "value": 52,
+      "label": "Excessive grooming"
+    },
+    {
+      "value": 53,
+      "label": "Extension of neck"
+    },
+    {
+      "value": 54,
+      "label": "Eye become dull"
+    },
+    {
+      "value": 55,
+      "label": "Eye closed"
+    },
+    {
+      "value": 56,
+      "label": "Eye movements"
+    },
+    {
+      "value": 57,
+      "label": "Eye redness"
+    },
+    {
+      "value": 58,
+      "label": "Facial paralysis"
+    },
+    {
+      "value": 59,
+      "label": "Facial swelling"
+    },
+    {
+      "value": 60,
+      "label": "Faeces are streake with blood"
+    },
+    {
+      "value": 61,
+      "label": "Fatigue"
+    },
+    {
+      "value": 62,
+      "label": "Fatique"
+    },
+    {
+      "value": 63,
+      "label": "Fever"
+    },
+    {
+      "value": 64,
+      "label": "Flaking of the Scutes"
+    },
+    {
+      "value": 65,
+      "label": "Flock Moratality"
+    },
+    {
+      "value": 66,
+      "label": "Fluif filled blisters"
+    },
+    {
+      "value": 67,
+      "label": "Folded Ears"
+    },
+    {
+      "value": 68,
+      "label": "Frequent eye Infections"
+    },
+    {
+      "value": 69,
+      "label": "Good appetite"
+    },
+    {
+      "value": 70,
+      "label": "Greenish diarrhea"
+    },
+    {
+      "value": 71,
+      "label": "Hair loss"
+    },
+    {
+      "value": 72,
+      "label": "Inability to absorb nutrients"
+    },
+    {
+      "value": 73,
+      "label": "Inability to jump"
+    },
+    {
+      "value": 74,
+      "label": "Increased in breathing"
+    },
+    {
+      "value": 75,
+      "label": "Infection"
+    },
+    {
+      "value": 76,
+      "label": "Itchiness"
+    },
+    {
+      "value": 77,
+      "label": "Jaundice"
+    },
+    {
+      "value": 78,
+      "label": "Joint Pain"
+    },
+    {
+      "value": 79,
+      "label": "Lameness"
+    },
+    {
+      "value": 80,
+      "label": "Lesion"
+    },
+    {
+      "value": 81,
+      "label": "Lesions on ear"
+    },
+    {
+      "value": 82,
+      "label": "Lesions on nose"
+    },
+    {
+      "value": 83,
+      "label": "Lethargy"
+    },
+    {
+      "value": 84,
+      "label": "Limping"
+    },
+    {
+      "value": 85,
+      "label": "Listlessness"
+    },
+    {
+      "value": 86,
+      "label": "Loss of appettite"
+    },
+    {
+      "value": 87,
+      "label": "Loss of eye"
+    },
+    {
+      "value": 88,
+      "label": "Loss of vitamin E"
+    },
+    {
+      "value": 89,
+      "label": "Lossened Teeth"
+    },
+    {
+      "value": 90,
+      "label": "Lound breathing"
+    },
+    {
+      "value": 91,
+      "label": "Lying down"
+    },
+    {
+      "value": 92,
+      "label": "Milk getting out more thick"
+    },
+    {
+      "value": 93,
+      "label": "Milk reduce"
+    },
+    {
+      "value": 94,
+      "label": "Misshapen Beak"
+    },
+    {
+      "value": 95,
+      "label": "Moist and painfull"
+    },
+    {
+      "value": 96,
+      "label": "Mortality varies"
+    },
+    {
+      "value": 97,
+      "label": "Muscle aches"
+    },
+    {
+      "value": 98,
+      "label": "Muscle pain"
+    },
+    {
+      "value": 99,
+      "label": "Muscle stiffness"
+    },
+    {
+      "value": 100,
+      "label": "Nasal Discharge"
+    },
+    {
+      "value": 101,
+      "label": "Nausea"
+    },
+    {
+      "value": 102,
+      "label": "Neck Vein Swelling"
+    },
+    {
+      "value": 103,
+      "label": "Nervous Issue"
+    },
+    {
+      "value": 104,
+      "label": "Neurologic abnormalities"
+    },
+    {
+      "value": 105,
+      "label": "Not eating"
+    },
+    {
+      "value": 106,
+      "label": "Nuerological"
+    },
+    {
+      "value": 107,
+      "label": "Obscure Lameness"
+    },
+    {
+      "value": 108,
+      "label": "Ocular discharge"
+    },
+    {
+      "value": 109,
+      "label": "Oxygen defiency"
+    },
+    {
+      "value": 110,
+      "label": "Pain"
+    },
+    {
+      "value": 111,
+      "label": "Pain on face"
+    },
+    {
+      "value": 112,
+      "label": "Pain on leg"
+    },
+    {
+      "value": 113,
+      "label": "Pains"
+    },
+    {
+      "value": 114,
+      "label": "Pale gums"
+    },
+    {
+      "value": 115,
+      "label": "Papules appear on teats anad udder"
+    },
+    {
+      "value": 116,
+      "label": "Periodic vommiting"
+    },
+    {
+      "value": 117,
+      "label": "Pharyngitis"
+    },
+    {
+      "value": 118,
+      "label": "Pink eye"
+    },
+    {
+      "value": 119,
+      "label": "Polydipsa"
+    },
+    {
+      "value": 120,
+      "label": "Poor Body condition"
+    },
+    {
+      "value": 121,
+      "label": "Raised growth or bump"
+    },
+    {
+      "value": 122,
+      "label": "Recumbency"
+    },
+    {
+      "value": 123,
+      "label": "Red and inflammation ear"
+    },
+    {
+      "value": 124,
+      "label": "Red lesion from bald patches"
+    },
+    {
+      "value": 125,
+      "label": "Redness on ear"
+    },
+    {
+      "value": 126,
+      "label": "Reduce Lamp marking"
+    },
+    {
+      "value": 127,
+      "label": "Respiratory infection"
+    },
+    {
+      "value": 128,
+      "label": "Rubbing eye"
+    },
+    {
+      "value": 129,
+      "label": "Salivating"
+    },
+    {
+      "value": 130,
+      "label": "Scratching"
+    },
+    {
+      "value": 131,
+      "label": "Seizures"
+    },
+    {
+      "value": 132,
+      "label": "Sensitive to touch"
+    },
+    {
+      "value": 133,
+      "label": "Septicemia"
+    },
+    {
+      "value": 134,
+      "label": "Severe weekness and depression"
+    },
+    {
+      "value": 135,
+      "label": "Shaking oh head"
+    },
+    {
+      "value": 136,
+      "label": "Shock"
+    },
+    {
+      "value": 137,
+      "label": "Shortness of breath"
+    },
+    {
+      "value": 138,
+      "label": "Shyness or aggression"
+    },
+    {
+      "value": 139,
+      "label": "Skin issue"
+    },
+    {
+      "value": 140,
+      "label": "Sleeping Excessively"
+    },
+    {
+      "value": 141,
+      "label": "Sloughing of the tail"
+    },
+    {
+      "value": 142,
+      "label": "Sneezing"
+    },
+    {
+      "value": 143,
+      "label": "Snoring"
+    },
+    {
+      "value": 144,
+      "label": "Staggering"
+    },
+    {
+      "value": 145,
+      "label": "Stamping And pedding of hind eye"
+    },
+    {
+      "value": 146,
+      "label": "Stiffness"
+    },
+    {
+      "value": 147,
+      "label": "Stomach  cramps"
+    },
+    {
+      "value": 148,
+      "label": "Stopped eat"
+    },
+    {
+      "value": 149,
+      "label": "Sudden death"
+    },
+    {
+      "value": 150,
+      "label": "Swelling of internal organs"
+    },
+    {
+      "value": 151,
+      "label": "Swelling of joints"
+    },
+    {
+      "value": 152,
+      "label": "Swollen and painfull"
+    },
+    {
+      "value": 153,
+      "label": "Tail shaking"
+    },
+    {
+      "value": 154,
+      "label": "Tear production"
+    },
+    {
+      "value": 155,
+      "label": "Tenderness"
+    },
+    {
+      "value": 156,
+      "label": "Terminal convulsion"
+    },
+    {
+      "value": 157,
+      "label": "Throat and Ear pain"
+    },
+    {
+      "value": 158,
+      "label": "Ulcerated ear"
+    },
+    {
+      "value": 159,
+      "label": "Ulcerated skin"
+    },
+    {
+      "value": 160,
+      "label": "Unable to exercise"
+    },
+    {
+      "value": 161,
+      "label": "Underdeveloped muscles"
+    },
+    {
+      "value": 162,
+      "label": "Undigested seeds"
+    },
+    {
+      "value": 163,
+      "label": "Vaginal Discharge"
+    },
+    {
+      "value": 164,
+      "label": "Vision Problem"
+    },
+    {
+      "value": 165,
+      "label": "Vomitting"
+    },
+    {
+      "value": 166,
+      "label": "Wasting"
+    },
+    {
+      "value": 167,
+      "label": "Watery faeces"
+    },
+    {
+      "value": 168,
+      "label": "Weakness"
+    },
+    {
+      "value": 169,
+      "label": "Week pulse"
+    },
+    {
+      "value": 170,
+      "label": "Weight Loss"
+    },
+    {
+      "value": 171,
+      "label": "Weight gain"
+    },
+    {
+      "value": 172,
+      "label": "Weight loss"
+    },
+    {
+      "value": 173,
+      "label": "Weightloss"
+    },
+    {
+      "value": 174,
+      "label": "Weigth bearing long bones"
+    },
+    {
+      "value": 175,
+      "label": "Wool production"
+    },
+    {
+      "value": 176,
+      "label": "anaemia"
+    },
+    {
+      "value": 177,
+      "label": "anorexia"
+    },
+    {
+      "value": 178,
+      "label": "coughing"
+    },
+    {
+      "value": 179,
+      "label": "depression"
+    },
+    {
+      "value": 180,
+      "label": "diarrhoea"
+    },
+    {
+      "value": 181,
+      "label": "difficulty moving and eating"
+    },
+    {
+      "value": 182,
+      "label": "drooping ears"
+    },
+    {
+      "value": 183,
+      "label": "droopy wings"
+    },
+    {
+      "value": 184,
+      "label": "dull ness"
+    },
+    {
+      "value": 185,
+      "label": "extending its neck"
+    },
+    {
+      "value": 186,
+      "label": "fever"
+    },
+    {
+      "value": 187,
+      "label": "gasping for breath"
+    },
+    {
+      "value": 188,
+      "label": "inability to rise"
+    },
+    {
+      "value": 189,
+      "label": "lack of vocalizations"
+    },
+    {
+      "value": 190,
+      "label": "lameness"
+    },
+    {
+      "value": 191,
+      "label": "loss of\u00a0wariness"
+    },
+    {
+      "value": 192,
+      "label": "recumbency"
+    },
+    {
+      "value": 193,
+      "label": "restless movement"
+    },
+    {
+      "value": 194,
+      "label": "slow growth"
+    },
+    {
+      "value": 195,
+      "label": "sudden death"
+    },
+    {
+      "value": 196,
+      "label": "swollen abdomen"
+    },
+    {
+      "value": 197,
+      "label": "trembling"
+    },
+    {
+      "value": 198,
+      "label": "twisted neck"
+    },
+    {
+      "value": 199,
+      "label": "urination problem"
+    },
+    {
+      "value": 200,
+      "label": "weakness"
+    },
+    {
+      "value": 201,
+      "label": "\u00a0increased passing gas"
+    },
+    {
+      "value": 202,
+      "label": "\u00a0pain and bloating"
+    }
+  ]
+}

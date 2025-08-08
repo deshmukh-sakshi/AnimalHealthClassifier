@@ -4,70 +4,290 @@
     <meta charset="UTF-8">
     <title>Enter Animal Details</title>
     <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4; }
-        form { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 400px; }
-        h2 { text-align: center; color: #333; }
-        label, select, input[type="submit"] { display: block; width: 100%; margin-bottom: 15px; }
-        label { margin-bottom: 5px; font-weight: bold; }
-        select, input[type="submit"] { padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
-        input[type="submit"] { background-color: #28a745; color: white; border: none; cursor: pointer; font-size: 16px; }
+        body { font-family: sans-serif; padding: 20px; background-color: #f4f4f4; }
+        .container { max-width: 700px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; margin-bottom: 30px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; color: #555; }
+        
+        .autocomplete-container { position: relative; margin-bottom: 20px; }
+        .autocomplete-input { 
+            width: 100%; padding: 12px; border-radius: 5px; border: 2px solid #ddd; 
+            font-size: 14px; box-sizing: border-box;
+        }
+        .autocomplete-input:focus { border-color: #007bff; outline: none; }
+        .autocomplete-suggestions { 
+            position: absolute; top: 100%; left: 0; right: 0; 
+            background: white; border: 1px solid #ddd; border-top: none;
+            max-height: 200px; overflow-y: auto; z-index: 1000;
+            border-radius: 0 0 5px 5px; display: none;
+        }
+        .suggestion-item { 
+            padding: 10px; cursor: pointer; border-bottom: 1px solid #eee;
+        }
+        .suggestion-item:hover { background-color: #f8f9fa; }
+        .suggestion-item:last-child { border-bottom: none; }
+        
+        .popular-options { margin-bottom: 15px; }
+        .popular-title { font-size: 12px; color: #666; margin-bottom: 8px; }
+        .popular-buttons { display: flex; flex-wrap: wrap; gap: 5px; }
+        .popular-btn { 
+            background: #e9ecef; border: 1px solid #ced4da; padding: 5px 10px; 
+            border-radius: 15px; font-size: 12px; cursor: pointer; color: #495057;
+        }
+        .popular-btn:hover { background: #dee2e6; }
+        
+        input[type="submit"] { 
+            width: 100%; padding: 15px; background-color: #28a745; color: white; 
+            border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold; 
+        }
+        input[type="submit"]:hover { background-color: #218838; }
+        .form-group { margin-bottom: 25px; }
+        .info { background-color: #e9ecef; padding: 15px; border-radius: 5px; margin-bottom: 20px; font-size: 14px; color: #6c757d; }
+        .selected-value { color: #28a745; font-weight: bold; font-size: 12px; margin-top: 5px; }
+        .hidden-input { display: none; }
     </style>
 </head>
 <body>
-    <form action="/submit" method="post">
-        <h2>Enter Your Details for Animal Health Status Check</h2>
+    <div class="container">
+        <h2>Animal Health Classification</h2>
+        <div class="info">
+            Select the animal type and symptoms to get a health assessment. All fields are required.
+        </div>
         
-        <label for="AnimalName">Animal Name:</label>
-        <select name="AnimalName" id="AnimalName">
-            <option value="6">Dog</option>
-            <option value="2">Buffaloes</option>
-            <option value="29">Sheep</option>
-            </select>
+        <form action="/submit" method="post">
+            <!-- Animal Selection -->
+            <div class="form-group">
+                <label for="AnimalName">Animal Type:</label>
+                <div class="popular-options">
+                    <div class="popular-title">Popular Animals:</div>
+                    <div class="popular-buttons">
+                        <span class="popular-btn" onclick="selectOption('AnimalName', 'Dog', 6)">Dog</span>
+                        <span class="popular-btn" onclick="selectOption('AnimalName', 'Cat', 36)">Cat</span>
+                        <span class="popular-btn" onclick="selectOption('AnimalName', 'Cattle', 3)">Cattle</span>
+                        <span class="popular-btn" onclick="selectOption('AnimalName', 'Chicken', 4)">Chicken</span>
+                        <span class="popular-btn" onclick="selectOption('AnimalName', 'Sheep', 29)">Sheep</span>
+                    </div>
+                </div>
+                <div class="autocomplete-container">
+                    <input type="text" class="autocomplete-input" placeholder="Type to search animals..." 
+                           onkeyup="showSuggestions('AnimalName', this.value)" onclick="showSuggestions('AnimalName', this.value)">
+                    <div class="autocomplete-suggestions" id="AnimalName-suggestions"></div>
+                    <input type="hidden" name="AnimalName" id="AnimalName-value" required>
+                    <div class="selected-value" id="AnimalName-selected"></div>
+                </div>
+            </div>
 
-        <label for="symptoms1">Symptom Set 1:</label>
-        <select name="symptoms1" id="symptoms1">
-            <option value="0">anemia</option>
-            <option value="2">jaundice</option>
-            <option value="4">wasting</option>
-            <option value="1">convulsions</option>
-            <option value="3">seizures</option>
-        </select>
+            <!-- Symptoms 1 -->
+            <div class="form-group">
+                <label for="symptoms1">Primary Symptoms:</label>
+                <div class="popular-options">
+                    <div class="popular-title">Common Primary Symptoms:</div>
+                    <div class="popular-buttons">
+                        <span class="popular-btn" onclick="selectSymptom('symptoms1', 'Fever', 63)">Fever</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms1', 'Loss of appetite', 218)">Loss of appetite</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms1', 'Weakness', 200)">Weakness</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms1', 'Lethargy', 99)">Lethargy</span>
+                    </div>
+                </div>
+                <div class="autocomplete-container">
+                    <input type="text" class="autocomplete-input" placeholder="Type to search primary symptoms..." 
+                           onkeyup="showSuggestions('symptoms1', this.value)" onclick="showSuggestions('symptoms1', this.value)">
+                    <div class="autocomplete-suggestions" id="symptoms1-suggestions"></div>
+                    <input type="hidden" name="symptoms1" id="symptoms1-value" required>
+                    <div class="selected-value" id="symptoms1-selected"></div>
+                </div>
+            </div>
+
+            <!-- Symptoms 2 -->
+            <div class="form-group">
+                <label for="symptoms2">Secondary Symptoms:</label>
+                <div class="popular-options">
+                    <div class="popular-title">Common Secondary Symptoms:</div>
+                    <div class="popular-buttons">
+                        <span class="popular-btn" onclick="selectSymptom('symptoms2', 'Diarrhea', 31)">Diarrhea</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms2', 'Difficulty breathing', 34)">Difficulty breathing</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms2', 'Depression', 30)">Depression</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms2', 'Loss of appetite', 97)">Loss of appetite</span>
+                    </div>
+                </div>
+                <div class="autocomplete-container">
+                    <input type="text" class="autocomplete-input" placeholder="Type to search secondary symptoms..." 
+                           onkeyup="showSuggestions('symptoms2', this.value)" onclick="showSuggestions('symptoms2', this.value)">
+                    <div class="autocomplete-suggestions" id="symptoms2-suggestions"></div>
+                    <input type="hidden" name="symptoms2" id="symptoms2-value" required>
+                    <div class="selected-value" id="symptoms2-selected"></div>
+                </div>
+            </div>
+
+            <!-- Symptoms 3 -->
+            <div class="form-group">
+                <label for="symptoms3">Additional Symptoms (Set 3):</label>
+                <div class="popular-options">
+                    <div class="popular-title">Common Symptoms:</div>
+                    <div class="popular-buttons">
+                        <span class="popular-btn" onclick="selectSymptom('symptoms3', 'Coughing', 31)">Coughing</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms3', 'Vomiting', 179)">Vomiting</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms3', 'Weight loss', 185)">Weight loss</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms3', 'Diarrhea', 40)">Diarrhea</span>
+                    </div>
+                </div>
+                <div class="autocomplete-container">
+                    <input type="text" class="autocomplete-input" placeholder="Type to search symptoms..." 
+                           onkeyup="showSuggestions('symptoms3', this.value)" onclick="showSuggestions('symptoms3', this.value)">
+                    <div class="autocomplete-suggestions" id="symptoms3-suggestions"></div>
+                    <input type="hidden" name="symptoms3" id="symptoms3-value" required>
+                    <div class="selected-value" id="symptoms3-selected"></div>
+                </div>
+            </div>
+
+            <!-- Symptoms 4 -->
+            <div class="form-group">
+                <label for="symptoms4">Additional Symptoms (Set 4):</label>
+                <div class="popular-options">
+                    <div class="popular-title">Common Symptoms:</div>
+                    <div class="popular-buttons">
+                        <span class="popular-btn" onclick="selectSymptom('symptoms4', 'Weight loss', 182)">Weight loss</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms4', 'Lethargy', 87)">Lethargy</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms4', 'Anorexia', 5)">Anorexia</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms4', 'Depression', 34)">Depression</span>
+                    </div>
+                </div>
+                <div class="autocomplete-container">
+                    <input type="text" class="autocomplete-input" placeholder="Type to search symptoms..." 
+                           onkeyup="showSuggestions('symptoms4', this.value)" onclick="showSuggestions('symptoms4', this.value)">
+                    <div class="autocomplete-suggestions" id="symptoms4-suggestions"></div>
+                    <input type="hidden" name="symptoms4" id="symptoms4-value" required>
+                    <div class="selected-value" id="symptoms4-selected"></div>
+                </div>
+            </div>
+
+            <!-- Symptoms 5 -->
+            <div class="form-group">
+                <label for="symptoms5">Additional Symptoms (Set 5):</label>
+                <div class="popular-options">
+                    <div class="popular-title">Common Symptoms:</div>
+                    <div class="popular-buttons">
+                        <span class="popular-btn" onclick="selectSymptom('symptoms5', 'Pain', 110)">Pain</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms5', 'Dehydration', 32)">Dehydration</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms5', 'Anemia', 7)">Anemia</span>
+                        <span class="popular-btn" onclick="selectSymptom('symptoms5', 'Weight loss', 172)">Weight loss</span>
+                    </div>
+                </div>
+                <div class="autocomplete-container">
+                    <input type="text" class="autocomplete-input" placeholder="Type to search symptoms..." 
+                           onkeyup="showSuggestions('symptoms5', this.value)" onclick="showSuggestions('symptoms5', this.value)">
+                    <div class="autocomplete-suggestions" id="symptoms5-suggestions"></div>
+                    <input type="hidden" name="symptoms5" id="symptoms5-value" required>
+                    <div class="selected-value" id="symptoms5-selected"></div>
+                </div>
+            </div>
+
+            <input type="submit" value="Analyze Animal Health">
+        </form>
+    </div>
+
+    <script>
+        // Store all form data - will be loaded from server
+        let formData = {};
         
-        <label for="symptoms2">Symptom Set 2:</label>
-        <select name="symptoms2" id="symptoms2">
-            <option value="4">swelling</option>
-            <option value="0">emaciation</option>
-            <option value="1">hairloss</option>
-            <option value="2">ruffled feathers</option>
-            <option value="3">scabs</option>
-        </select>
-
-        <label for="symptoms3">Symptom Set 3:</label>
-        <select name="symptoms3" id="symptoms3">
-            <option value="2">fever</option>
-            <option value="4">loss of appetite</option>
-            <option value="6">pains</option>
-            <option value="12">weakness</option>
-        </select>
-
-        <label for="symptoms4">Symptom Set 4:</label>
-        <select name="symptoms4" id="symptoms4">
-            <option value="0">difficulty in breathing</option>
-            <option value="2">halitosis</option>
-            <option value="4">pneumonia</option>
-            <option value="1">dyspnea</option>
-            <option value="3">nasal discharge</option>
-        </select>
+        // Load form data when page loads
+        async function loadFormData() {
+            try {
+                const response = await fetch('/get-form-data');
+                formData = await response.json();
+            } catch (error) {
+                console.error('Error loading form data:', error);
+                // Fallback data structure
+                formData = {
+                    AnimalName: [],
+                    symptoms1: [],
+                    symptoms2: [],
+                    symptoms3: [],
+                    symptoms4: [],
+                    symptoms5: []
+                };
+            }
+        }
         
-        <label for="symptoms5">Symptom Set 5:</label>
-        <select name="symptoms5" id="symptoms5">
-            <option value="5">uteria inertia</option>
-            <option value="3">ulcers</option>
-            <option value="2">fetopelvic disproportion</option>
-            <option value="1">diarrhea</option>
-        </select>
-
-        <input type="submit" value="Submit">
-    </form>
+        function showSuggestions(fieldName, searchValue) {
+            const suggestionsDiv = document.getElementById(fieldName + '-suggestions');
+            const options = formData[fieldName] || [];
+            
+            if (!searchValue.trim() || !options.length) {
+                suggestionsDiv.style.display = 'none';
+                return;
+            }
+            
+            const filtered = options.filter(option => 
+                option.label.toLowerCase().includes(searchValue.toLowerCase())
+            ).slice(0, 8); // Show max 8 suggestions
+            
+            if (filtered.length === 0) {
+                suggestionsDiv.style.display = 'none';
+                return;
+            }
+            
+            suggestionsDiv.innerHTML = filtered.map(option => 
+                `<div class="suggestion-item" onclick="selectOption('${fieldName}', '${option.label}', ${option.value})">
+                    ${option.label}
+                </div>`
+            ).join('');
+            
+            suggestionsDiv.style.display = 'block';
+        }
+        
+        function selectOption(fieldName, label, value) {
+            // Set the hidden input value
+            document.getElementById(fieldName + '-value').value = value;
+            
+            // Update the display
+            document.getElementById(fieldName + '-selected').textContent = `Selected: ${label}`;
+            
+            // Clear the search input
+            const input = document.querySelector(`#${fieldName}-suggestions`).previousElementSibling;
+            input.value = label;
+            
+            // Hide suggestions
+            document.getElementById(fieldName + '-suggestions').style.display = 'none';
+        }
+        
+        function selectSymptom(fieldName, label, value) {
+            selectOption(fieldName, label, value);
+        }
+        
+        // Hide suggestions when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.autocomplete-container')) {
+                document.querySelectorAll('.autocomplete-suggestions').forEach(div => {
+                    div.style.display = 'none';
+                });
+            }
+        });
+        
+        // Form validation
+        document.querySelector('form').addEventListener('submit', function(e) {
+            const requiredFields = ['AnimalName', 'symptoms1', 'symptoms2', 'symptoms3', 'symptoms4', 'symptoms5'];
+            let allFilled = true;
+            
+            requiredFields.forEach(field => {
+                const value = document.getElementById(field + '-value').value;
+                if (!value) {
+                    allFilled = false;
+                    document.getElementById(field + '-selected').textContent = 'This field is required';
+                    document.getElementById(field + '-selected').style.color = 'red';
+                }
+            });
+            
+            if (!allFilled) {
+                e.preventDefault();
+                alert('Please fill all required fields');
+            }
+        });
+        
+        // Initialize form data when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadFormData();
+        });
+    </script>
 </body>
 </html>
